@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Claude Code settings
+.claude/
+
+# Generated files
+*.docx
+!templates/*.docx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temp files
+temp/
+tmp/
+*.tmp
+
+# Output
+output.docx
+
+# Real work documents (confidential)
+tests/test1-original/
+tests/test2-user-request/
