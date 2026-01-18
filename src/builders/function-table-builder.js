@@ -183,6 +183,14 @@ function buildScenarioContent(scenarioText, styles, context = {}) {
 }
 
 /**
+ * Проверка, является ли строка валидным URL (http:// или https://)
+ */
+function isValidUrl(url) {
+  if (!url || typeof url !== 'string') return false;
+  return url.startsWith('http://') || url.startsWith('https://');
+}
+
+/**
  * Генерация функциональной таблицы ЧТЗ
  */
 function buildFunctionTable(directiveData, styles, context = {}) {
@@ -193,20 +201,20 @@ function buildFunctionTable(directiveData, styles, context = {}) {
     taskUrl,
     scenario
   } = directiveData;
-  
+
   const padding = styles.table.cellPadding;
   const headerBg = styles.colors.tableHeaderBackground;
   const headerTextColor = styles.colors.tableHeaderText || 'FFFFFF';
-  
+
   const col1 = 1500;
   const col2 = 8000;
-  
+
   const rows = [];
-  
+
   // Строка 1: Функция
   const funcRuns = processTextFormatting(funcDescription || '');
   const functionContent = `<w:p><w:r><w:t>• </w:t></w:r>${funcRuns}</w:p>`;
-  
+
   rows.push(buildTableRow([
     buildTableCell(
       `<w:p><w:r><w:rPr><w:b/><w:color w:val="${headerTextColor}"/></w:rPr><w:t>Функция</w:t></w:r></w:p>`,
@@ -214,14 +222,16 @@ function buildFunctionTable(directiveData, styles, context = {}) {
     ),
     buildTableCell(functionContent, { width: col2, padding })
   ]));
-  
+
   // Строка 2: Номер задачи
   let taskContent;
-  if (taskUrl && context.addHyperlink) {
+  // Создаём гиперссылку только для валидных URL (http:// или https://)
+  if (taskUrl && isValidUrl(taskUrl) && context.addHyperlink) {
     const rId = context.addHyperlink(taskUrl);
     taskContent = `<w:p><w:hyperlink r:id="${rId}"><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escapeXml(task || taskUrl)}</w:t></w:r></w:hyperlink></w:p>`;
   } else if (task) {
-    taskContent = `<w:p><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escapeXml(task)}</w:t></w:r></w:p>`;
+    // Для невалидных URL ("—", пустые) отображаем task как обычный текст
+    taskContent = `<w:p><w:r><w:t>${escapeXml(task)}</w:t></w:r></w:p>`;
   } else {
     taskContent = '<w:p/>';
   }
