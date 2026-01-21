@@ -161,6 +161,11 @@ function buildHeading(node, styles, context = {}) {
       styleId = styles.styleIds.heading2;
       break;
     case 3:
+      styleId = styles.styleIds.heading3;
+      break;
+    case 4:
+      styleId = styles.styleIds.heading4;
+      break;
     default:
       styleId = styles.styleIds.heading3;
       break;
