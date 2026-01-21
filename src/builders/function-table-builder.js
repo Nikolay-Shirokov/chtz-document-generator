@@ -213,7 +213,18 @@ function buildFunctionTable(directiveData, styles, context = {}) {
 
   // Строка 1: Функция
   const funcRuns = processTextFormatting(funcDescription || '');
-  const functionContent = `<w:p><w:r><w:t>• </w:t></w:r>${funcRuns}</w:p>`;
+
+  // Если есть ID, добавляем закладку внутрь первого параграфа (а не отдельным параграфом)
+  let bookmarkStart = '';
+  let bookmarkEnd = '';
+  if (id && context.nextBookmarkId) {
+    const bookmarkId = context.nextBookmarkId();
+    bookmarkStart = `<w:bookmarkStart w:id="${bookmarkId}" w:name="${id}"/>`;
+    bookmarkEnd = `<w:bookmarkEnd w:id="${bookmarkId}"/>`;
+  }
+
+  // Закладка вставляется внутрь параграфа первой ячейки (не создаёт пустую строку)
+  const functionContent = `<w:p>${bookmarkStart}<w:r><w:t>• </w:t></w:r>${funcRuns}${bookmarkEnd}</w:p>`;
 
   rows.push(buildTableRow([
     buildTableCell(
@@ -255,19 +266,12 @@ function buildFunctionTable(directiveData, styles, context = {}) {
     buildTableCell(scenarioContent, { width: col2, padding })
   ]));
   
-  let table = buildTable(rows, {
+  const table = buildTable(rows, {
     columnWidths: [col1, col2],
     borders: true,
     borderColor: styles.colors.tableBorder
   });
-  
-  // Добавляем закладку если есть ID
-  if (id && context.nextBookmarkId) {
-    const bookmarkId = context.nextBookmarkId();
-    const bookmarkPara = `<w:p><w:bookmarkStart w:id="${bookmarkId}" w:name="${id}"/><w:bookmarkEnd w:id="${bookmarkId}"/></w:p>`;
-    table = bookmarkPara + table;
-  }
-  
+
   return table;
 }
 

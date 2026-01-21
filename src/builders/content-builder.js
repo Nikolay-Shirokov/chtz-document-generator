@@ -170,13 +170,18 @@ function buildHeading(node, styles, context = {}) {
       styleId = styles.styleIds.heading3;
       break;
   }
-  
+
+  // Проверяем, является ли это заголовком таблицы (Таблица N.)
+  // Такие заголовки выравниваются по правому краю согласно корпоративному шаблону
+  const isTableTitle = /^Таблица\s+\d+\./i.test(headingText);
+
   // Создаём параграф с закладкой
   const content = bookmark(bookmarkId, bookmarkName, text);
-  
+
   return paragraph(content, {
     style: styleId,
-    keepNext: true
+    keepNext: true,
+    align: isTableTitle ? 'right' : undefined
   });
 }
 
