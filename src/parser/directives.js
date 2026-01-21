@@ -47,9 +47,12 @@ function parseFunctionTableContent(content) {
     taskUrl: '',
     scenario: ''
   };
-  
+
+  // Нормализуем переводы строк (Windows \r\n -> \n)
+  const normalizedContent = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+
   // Разбиваем на строки и парсим ключ: значение
-  const lines = content.split('\n');
+  const lines = normalizedContent.split('\n');
   let currentKey = null;
   let currentValue = [];
   let inMultiline = false;
