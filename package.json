@@ -4,10 +4,12 @@
   "description": "Генератор документов ЧТЗ из Markdown в Word (.docx)",
   "main": "src/index.js",
   "bin": {
-    "chtz-generate": "./bin/chtz-generate.js"
+    "chtz-generate": "./bin/chtz-generate.js",
+    "chtz-reverse": "./bin/chtz-reverse.js"
   },
   "scripts": {
     "generate": "node bin/chtz-generate.js",
+    "reverse": "node bin/chtz-reverse.js",
     "test": "node --test tests/",
     "example": "node bin/chtz-generate.js examples/full/document.md -o examples/full/output.docx -v"
   },
