@@ -50,6 +50,8 @@ class ReverseConverter {
         success: true,
         markdown,
         metadata: recognized.metadata,
+        history: recognized.history,
+        relatedDocs: recognized.relatedDocs,
         images: ast.images || [],
         warnings: this.warnings,
         stats: {

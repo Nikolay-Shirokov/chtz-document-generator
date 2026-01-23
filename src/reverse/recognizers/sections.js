@@ -38,6 +38,21 @@ class SectionRecognizer {
     const sections = [];
     let currentSection = null;
     let contentBuffer = [];
+    let hasH1Headings = elements.some(el =>
+      el.type === 'paragraph' && el.isHeading && el.headingLevel === 1
+    );
+
+    // Если нет заголовков H1, создаём виртуальный раздел для всего контента
+    if (!hasH1Headings && elements.length > 0) {
+      currentSection = {
+        id: 'content',
+        title: 'Контент документа',
+        level: 1,
+        knownType: null,
+        content: [],
+        subsections: []
+      };
+    }
 
     for (let i = 0; i < elements.length; i++) {
       const element = elements[i];
@@ -75,8 +90,9 @@ class SectionRecognizer {
         // Обычный контент
         contentBuffer.push(this.processElement(element));
       } else {
-        // Контент до первого раздела (титульная страница)
-        // Пока игнорируем
+        // Контент до первого раздела - добавляем в буфер
+        // (будет обработан если создали виртуальный раздел)
+        contentBuffer.push(this.processElement(element));
       }
     }
 
