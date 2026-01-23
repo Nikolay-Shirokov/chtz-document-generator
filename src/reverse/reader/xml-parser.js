@@ -163,6 +163,7 @@ class XmlParser {
    */
   parseContent(content) {
     const result = {};
+    const childrenOrder = []; // Сохраняем порядок элементов
     let pos = 0;
 
     while (pos < content.length) {
@@ -180,6 +181,8 @@ class XmlParser {
           // Добавляем элемент к результату
           for (const [key, value] of Object.entries(element)) {
             this.addChild(result, key, value);
+            // Сохраняем в упорядоченный массив
+            childrenOrder.push({ [key]: value });
           }
         }
         pos = endPos;
@@ -192,6 +195,11 @@ class XmlParser {
         }
         pos = textEnd === -1 ? content.length : textEnd;
       }
+    }
+
+    // Добавляем упорядоченный массив детей если есть элементы
+    if (childrenOrder.length > 0) {
+      result['__children__'] = childrenOrder;
     }
 
     return result;

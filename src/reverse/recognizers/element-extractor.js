@@ -55,7 +55,18 @@ class ElementExtractor {
   flattenBody(bodyObj) {
     const elements = [];
 
-    // Собираем все w:p (параграфы) и w:tbl (таблицы)
+    // ИСПРАВЛЕНИЕ: Используем __children__ для сохранения порядка элементов
+    if (bodyObj['__children__']) {
+      for (const child of bodyObj['__children__']) {
+        const key = Object.keys(child)[0];
+        if (key === 'w:p' || key === 'w:tbl') {
+          elements.push({ type: key, data: child[key] });
+        }
+      }
+      return elements;
+    }
+
+    // Старый способ (если нет __children__) - группирует по типам
     for (const key of Object.keys(bodyObj)) {
       if (key === 'w:p' || key === 'w:tbl') {
         const items = Array.isArray(bodyObj[key]) ? bodyObj[key] : [bodyObj[key]];
