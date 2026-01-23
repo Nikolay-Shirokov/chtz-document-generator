@@ -112,27 +112,82 @@ class ReverseConverter {
    * Сравнивает два Markdown документа
    * @param {string} original - оригинальный Markdown
    * @param {string} converted - конвертированный Markdown
-   * @returns {string} diff в unified формате
+   * @param {Object} options - опции сравнения
+   * @param {boolean} options.colored - цветной вывод
+   * @param {boolean} options.contextLines - количество контекстных строк (по умолчанию 3)
+   * @param {boolean} options.stats - показывать статистику
+   * @returns {string|Object} diff в unified формате или объект с diff и статистикой
    */
-  diff(original, converted) {
-    // Простая реализация diff
-    const originalLines = original.split('\n');
-    const convertedLines = converted.split('\n');
+  diff(original, converted, options = {}) {
+    const Diff = require('diff');
+    const {
+      colored = false,
+      contextLines = 3,
+      stats = false
+    } = options;
 
-    const result = [];
-    const maxLen = Math.max(originalLines.length, convertedLines.length);
+    // Используем unified diff для лучшего алгоритма
+    const diff = Diff.createPatch(
+      'document.md',
+      original,
+      converted,
+      'Оригинал',
+      'Конвертированный',
+      { context: contextLines }
+    );
 
-    for (let i = 0; i < maxLen; i++) {
-      const origLine = originalLines[i] || '';
-      const convLine = convertedLines[i] || '';
+    // Подсчёт статистики
+    const changes = Diff.diffLines(original, converted);
+    const statistics = {
+      linesAdded: 0,
+      linesRemoved: 0,
+      linesChanged: 0,
+      identical: changes.length === 1 && !changes[0].added && !changes[0].removed
+    };
 
-      if (origLine !== convLine) {
-        if (origLine) result.push(`- ${origLine}`);
-        if (convLine) result.push(`+ ${convLine}`);
+    for (const change of changes) {
+      if (change.added) {
+        statistics.linesAdded += change.count;
+      } else if (change.removed) {
+        statistics.linesRemoved += change.count;
       }
     }
 
-    return result.length > 0 ? result.join('\n') : 'Документы идентичны';
+    statistics.linesChanged = statistics.linesAdded + statistics.linesRemoved;
+
+    // Если документы идентичны
+    if (statistics.identical) {
+      return stats
+        ? { diff: 'Документы идентичны ✓', stats: statistics }
+        : 'Документы идентичны ✓';
+    }
+
+    // Цветной вывод (если поддерживается)
+    let output = diff;
+    if (colored) {
+      try {
+        const chalk = require('chalk');
+        const lines = diff.split('\n');
+        output = lines.map(line => {
+          if (line.startsWith('+') && !line.startsWith('+++')) {
+            return chalk.green(line);
+          } else if (line.startsWith('-') && !line.startsWith('---')) {
+            return chalk.red(line);
+          } else if (line.startsWith('@@')) {
+            return chalk.cyan(line);
+          }
+          return line;
+        }).join('\n');
+      } catch (err) {
+        // chalk не доступен, возвращаем обычный вывод
+      }
+    }
+
+    if (stats) {
+      return { diff: output, stats: statistics };
+    }
+
+    return output;
   }
 
   /**

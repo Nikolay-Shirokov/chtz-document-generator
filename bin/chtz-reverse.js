@@ -42,6 +42,7 @@ program
   .option('--no-images', 'Не извлекать изображения')
   .option('--diff <original>', 'Сравнить с оригинальным Markdown файлом')
   .option('--strict', 'Строгий режим валидации')
+  .option('--format <fmt>', 'Формат вывода: md, json', 'md')
   .option('-v, --verbose', 'Подробный вывод')
   .action(async (input, options) => {
     const c = await loadChalk();
@@ -88,7 +89,44 @@ program
         process.exit(1);
       }
 
-      // Определяем выходной файл
+      // Обработка формата вывода
+      if (options.format === 'json') {
+        // JSON формат
+        const jsonOutput = {
+          success: true,
+          markdown: result.markdown,
+          metadata: result.metadata,
+          history: result.history,
+          relatedDocs: result.relatedDocs,
+          stats: result.stats,
+          warnings: result.warnings,
+          images: result.images.map(img => ({
+            filename: img.filename,
+            contentType: img.contentType,
+            size: img.data.length
+          }))
+        };
+
+        const outputPath = options.output
+          ? path.resolve(options.output)
+          : inputPath.replace(/\.docx$/i, '.json');
+
+        fs.writeFileSync(outputPath, JSON.stringify(jsonOutput, null, 2), 'utf-8');
+
+        console.log('');
+        console.log(c.green('═══════════════════════════════════════'));
+        console.log(c.green('✅ Конвертация завершена!'));
+        console.log(c.green('═══════════════════════════════════════'));
+        console.log('');
+        console.log(`📄 Файл: ${c.bold(outputPath)}`);
+        console.log('');
+        console.log(c.gray('Статистика:'));
+        console.log(c.gray(`   Разделов: ${result.stats?.sections || 0}`));
+        console.log(c.gray(`   Изображений: ${result.stats?.images || 0}`));
+        return;
+      }
+
+      // Markdown формат (по умолчанию)
       const outputPath = options.output
         ? path.resolve(options.output)
         : inputPath.replace(/\.docx$/i, '.md');
@@ -108,10 +146,28 @@ program
         const originalPath = path.resolve(options.diff);
         if (fs.existsSync(originalPath)) {
           const original = fs.readFileSync(originalPath, 'utf-8');
-          const diff = converter.diff(original, result.markdown);
+          const diffResult = converter.diff(original, result.markdown, {
+            colored: true,
+            stats: true,
+            contextLines: 3
+          });
+
           console.log('');
-          console.log(c.yellow('Различия с оригиналом:'));
-          console.log(diff);
+          console.log(c.yellow('═══════════════════════════════════════'));
+          console.log(c.yellow('📊 Сравнение с оригиналом'));
+          console.log(c.yellow('═══════════════════════════════════════'));
+          console.log('');
+
+          if (diffResult.stats.identical) {
+            console.log(c.green('✓ Документы идентичны'));
+          } else {
+            console.log(c.gray('Статистика:'));
+            console.log(c.green(`   Добавлено строк: ${diffResult.stats.linesAdded}`));
+            console.log(c.red(`   Удалено строк:   ${diffResult.stats.linesRemoved}`));
+            console.log(c.yellow(`   Всего изменений: ${diffResult.stats.linesChanged}`));
+            console.log('');
+            console.log(diffResult.diff);
+          }
         } else {
           console.warn(c.yellow(`⚠ Файл для сравнения не найден: ${originalPath}`));
         }
