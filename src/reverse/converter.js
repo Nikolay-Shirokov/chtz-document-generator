@@ -6,6 +6,7 @@
 const { DocxReader } = require('./reader/docx-reader');
 const { RecognizerPipeline } = require('./recognizers');
 const { MdBuilder } = require('./builder/md-builder');
+const { DocumentValidator } = require('./validator');
 
 class ReverseConverter {
   constructor(options = {}) {
@@ -20,6 +21,7 @@ class ReverseConverter {
     this.reader = new DocxReader(this.options);
     this.recognizers = new RecognizerPipeline(this.options);
     this.builder = new MdBuilder(this.options);
+    this.validator = new DocumentValidator(this.options);
 
     this.warnings = [];
   }
@@ -42,7 +44,26 @@ class ReverseConverter {
       const recognized = this.recognizers.recognize(ast);
       this.warnings.push(...recognized.warnings);
 
-      // 3. Генерируем Markdown
+      // 3. Валидация структуры
+      this.log('Валидация структуры документа...');
+      const validation = this.validator.validate(recognized);
+
+      // Добавляем предупреждения
+      this.warnings.push(...validation.warnings);
+
+      // В strict mode ошибки валидации приводят к остановке
+      if (!validation.valid && this.options.strict) {
+        const errorMessage = 'Валидация документа не прошла:\n' +
+          validation.errors.map(e => `  ❌ [${e.code}] ${e.message}`).join('\n');
+        throw new Error(errorMessage);
+      }
+
+      // Если есть ошибки, но не strict mode - добавляем их как предупреждения
+      if (validation.errors.length > 0 && !this.options.strict) {
+        this.warnings.push(...validation.errors);
+      }
+
+      // 4. Генерируем Markdown
       this.log('Генерация Markdown...');
       const markdown = this.builder.build(recognized);
 
