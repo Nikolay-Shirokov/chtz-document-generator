@@ -46,14 +46,20 @@ function parseMarkdownTable(lines, startIndex) {
   const headerCells = parseTableRow(lines[startIndex]);
   if (!headerCells) return null;
 
-  // Вторая строка должна быть разделителем
-  if (startIndex + 1 >= lines.length || !isTableSeparator(lines[startIndex + 1])) {
+  // Находим разделитель, пропуская пустые строки
+  let separatorIndex = startIndex + 1;
+  while (separatorIndex < lines.length && !lines[separatorIndex].trim()) {
+    separatorIndex++;
+  }
+
+  // Проверяем что следующая непустая строка - разделитель
+  if (separatorIndex >= lines.length || !isTableSeparator(lines[separatorIndex])) {
     return null;
   }
 
-  // Собираем строки данных
+  // Собираем строки данных (начинаем после разделителя)
   const rows = [headerCells];
-  let currentIndex = startIndex + 2;
+  let currentIndex = separatorIndex + 1;
 
   while (currentIndex < lines.length) {
     const cells = parseTableRow(lines[currentIndex]);

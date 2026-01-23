@@ -68,14 +68,15 @@ class FunctionTableRecognizer {
       let fullScenario = scenarioText.trim();
 
       // Добавляем пустую строку перед таблицами, если есть текст
+      // В Markdown перед таблицей должна быть пустая строка
       if (fullScenario) {
-        fullScenario += '\n';
+        fullScenario += '\n\n';  // Две \n создают пустую строку
       }
 
       // Конвертируем каждую вложенную таблицу в Markdown с отступом
       const nestedTablesMarkdown = scenarioCell.tables.map(nestedTable => {
-        return '\n' + tableToMarkdownIndented(nestedTable, 1);
-      }).join('\n');
+        return tableToMarkdownIndented(nestedTable, 1);
+      }).join('\n\n'); // Используем \n\n между таблицами
 
       scenarioText = fullScenario + nestedTablesMarkdown;
     }
@@ -94,7 +95,8 @@ class FunctionTableRecognizer {
       function: functionText,
       task: taskText,
       taskUrl,
-      scenario: scenarioText.trim()
+      // Убираем пробелы только в начале, сохраняя внутреннюю структуру
+      scenario: scenarioText.trimStart()
     };
   }
 
