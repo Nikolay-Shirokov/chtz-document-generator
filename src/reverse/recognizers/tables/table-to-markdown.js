@@ -136,7 +136,8 @@ function tableToMarkdownIndented(table, baseIndent = 1) {
     }
   }
 
-  return lines.join('\n');
+  // Добавляем пустую строку после таблицы (стандарт Markdown)
+  return lines.join('\n') + '\n';
 }
 
 module.exports = {
