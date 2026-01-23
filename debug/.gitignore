@@ -12,3 +12,6 @@ step*.docx
 round-trip*.md
 round-trip*.docx
 summary.txt
+
+# Отчеты анализа (могут содержать конфиденциальные данные)
+reports/
