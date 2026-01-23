@@ -2,6 +2,8 @@
  * SectionRecognizer - распознавание структуры разделов документа
  */
 
+const { TableRecognizer } = require('./tables');
+
 class SectionRecognizer {
   /**
    * Известные разделы ЧТЗ
@@ -22,6 +24,7 @@ class SectionRecognizer {
   constructor(options = {}) {
     this.options = options;
     this.warnings = [];
+    this.tableRecognizer = new TableRecognizer(options);
   }
 
   /**
@@ -173,59 +176,11 @@ class SectionRecognizer {
    * Обрабатывает таблицу
    */
   processTable(table) {
-    // Определяем тип таблицы
-    const tableType = this.identifyTableType(table);
-
-    return {
-      type: 'table',
-      tableType,
-      rows: table.rows.map(row => ({
-        cells: row.cells.map(cell => ({
-          text: cell.text,
-          paragraphs: cell.paragraphs
-        }))
-      }))
-    };
+    // Используем TableRecognizer для полного распознавания
+    const recognized = this.tableRecognizer.recognize(table, {});
+    return recognized;
   }
 
-  /**
-   * Определяет тип таблицы
-   */
-  identifyTableType(table) {
-    if (!table.rows || table.rows.length === 0) {
-      return 'regular';
-    }
-
-    const firstRow = table.rows[0];
-    if (!firstRow.cells || firstRow.cells.length === 0) {
-      return 'regular';
-    }
-
-    // Получаем текст заголовков
-    const headers = firstRow.cells.map(c => c.text.toLowerCase().trim());
-
-    // Таблица терминов
-    if (headers.length === 2 &&
-        headers.some(h => h.includes('термин')) &&
-        headers.some(h => h.includes('определение'))) {
-      return 'terms';
-    }
-
-    // Таблица изменений
-    if (headers.length === 2 &&
-        headers.some(h => h.includes('как есть')) &&
-        headers.some(h => h.includes('как будет'))) {
-      return 'changes';
-    }
-
-    // Функциональная таблица (по первой ячейке)
-    const firstCellText = firstRow.cells[0].text;
-    if (firstCellText.match(/[•●]\s*Функция:/i)) {
-      return 'function';
-    }
-
-    return 'regular';
-  }
 
   /**
    * Проверяет, является ли текст маркером пустого раздела

@@ -120,12 +120,13 @@ class MdBuilder {
     lines.push('| Термин | Определение |');
     lines.push('|--------|-------------|');
 
-    // Пропускаем заголовок (первую строку)
-    for (let i = 1; i < table.rows.length; i++) {
-      const row = table.rows[i];
-      const term = this.escapeTableCell(row.cells[0]?.text || '');
-      const definition = this.escapeTableCell(row.cells[1]?.text || '');
-      lines.push(`| ${term} | ${definition} |`);
+    // Используем распознанные terms
+    if (table.terms && table.terms.length > 0) {
+      for (const { term, definition } of table.terms) {
+        const termEsc = this.escapeTableCell(term);
+        const defEsc = this.escapeTableCell(definition);
+        lines.push(`| ${termEsc} | ${defEsc} |`);
+      }
     }
 
     lines.push(':::');
@@ -140,12 +141,13 @@ class MdBuilder {
     lines.push('| Описание функции «Как есть» | Описание функции «Как будет» |');
     lines.push('|-----------------------------|------------------------------|');
 
-    // Пропускаем заголовок (первую строку)
-    for (let i = 1; i < table.rows.length; i++) {
-      const row = table.rows[i];
-      const asIs = this.escapeTableCell(row.cells[0]?.text || '');
-      const toBe = this.escapeTableCell(row.cells[1]?.text || '');
-      lines.push(`| ${asIs} | ${toBe} |`);
+    // Используем распознанные changes
+    if (table.changes && table.changes.length > 0) {
+      for (const { asIs, toBe } of table.changes) {
+        const asIsEsc = this.escapeTableCell(asIs);
+        const toBeEsc = this.escapeTableCell(toBe);
+        lines.push(`| ${asIsEsc} | ${toBeEsc} |`);
+      }
     }
 
     lines.push(':::');
@@ -158,27 +160,25 @@ class MdBuilder {
   buildFunctionTable(table) {
     const lines = [];
 
-    // Извлекаем данные из таблицы
-    const data = this.extractFunctionTableData(table);
-
-    // Генерируем ID
-    const id = data.task ? `func-${data.task.toLowerCase().replace(/[^a-z0-9]/g, '-')}` : '';
+    // ID уже сгенерирован в распознавателе
+    const id = table.id || '';
 
     lines.push(`:::function-table${id ? `{#${id}}` : ''}`);
-    lines.push(`function: ${data.function}`);
+    lines.push(`function: ${table.function || ''}`);
 
-    if (data.task) {
-      lines.push(`task: ${data.task}`);
+    if (table.task) {
+      lines.push(`task: ${table.task}`);
     }
 
-    if (data.taskUrl) {
-      lines.push(`taskUrl: ${data.taskUrl}`);
+    if (table.taskUrl) {
+      lines.push(`taskUrl: ${table.taskUrl}`);
     }
 
     lines.push('scenario: |');
 
     // Добавляем сценарий с отступами
-    const scenarioLines = data.scenario.split('\n');
+    const scenario = table.scenario || '';
+    const scenarioLines = scenario.split('\n');
     for (const line of scenarioLines) {
       lines.push(`  ${line}`);
     }
@@ -187,60 +187,6 @@ class MdBuilder {
     return lines.join('\n');
   }
 
-  /**
-   * Извлекает данные из функциональной таблицы
-   */
-  extractFunctionTableData(table) {
-    const data = {
-      function: '',
-      task: '',
-      taskUrl: '',
-      scenario: ''
-    };
-
-    if (!table.rows || table.rows.length === 0) {
-      return data;
-    }
-
-    // Первая строка содержит метаданные
-    const headerRow = table.rows[0];
-    if (headerRow.cells && headerRow.cells[0]) {
-      const headerText = headerRow.cells[0].text;
-
-      // Извлекаем функцию
-      const funcMatch = headerText.match(/Функция:\s*(.+?)(?:\n|$)/i);
-      if (funcMatch) {
-        data.function = funcMatch[1].trim();
-      }
-
-      // Извлекаем задачу
-      const taskMatch = headerText.match(/Задача:\s*(\S+)/i);
-      if (taskMatch) {
-        data.task = taskMatch[1].trim();
-      }
-
-      // Извлекаем URL
-      const urlMatch = headerText.match(/(https?:\/\/\S+)/i);
-      if (urlMatch) {
-        data.taskUrl = urlMatch[1].trim();
-      }
-    }
-
-    // Вторая строка содержит сценарий
-    if (table.rows.length > 1) {
-      const scenarioRow = table.rows[1];
-      if (scenarioRow.cells && scenarioRow.cells[0]) {
-        let scenario = scenarioRow.cells[0].text;
-
-        // Удаляем префикс "Сценарий:"
-        scenario = scenario.replace(/^Сценарий:\s*/i, '');
-
-        data.scenario = scenario.trim();
-      }
-    }
-
-    return data;
-  }
 
   /**
    * Строит обычную таблицу
