@@ -73,9 +73,11 @@ class FunctionTableRecognizer {
         fullScenario += '\n\n';  // Две \n создают пустую строку
       }
 
-      // Конвертируем каждую вложенную таблицу в Markdown с отступом
+      // Конвертируем каждую вложенную таблицу в Markdown БЕЗ дополнительного отступа
+      // В YAML блоке scenario: | базовый отступ уже есть (2 пробела)
+      // Дополнительный отступ превращает таблицу в code block
       const nestedTablesMarkdown = scenarioCell.tables.map(nestedTable => {
-        return tableToMarkdownIndented(nestedTable, 1);
+        return tableToMarkdownIndented(nestedTable, 0);
       }).join('\n\n'); // Используем \n\n между таблицами
 
       scenarioText = fullScenario + nestedTablesMarkdown;
