@@ -219,7 +219,13 @@ function extractMarkdownText(node, depth = 0) {
     const inner = node.children ? node.children.map(c => extractMarkdownText(c, depth)).join('') : '';
     return `*${inner}*`;
   }
-  
+
+  // HTML (inline HTML like <br>, <span>, etc.)
+  if (node.type === 'html') {
+    // Сохраняем HTML как есть (особенно важно для <br> тегов)
+    return node.value || '';
+  }
+
   // Параграф - обрабатываем с учётом соседних узлов
   if (node.type === 'paragraph') {
     if (!node.children) return '\n';
