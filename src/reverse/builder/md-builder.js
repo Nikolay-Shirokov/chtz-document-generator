@@ -10,6 +10,8 @@ class MdBuilder {
     this.options = options;
     this.yamlBuilder = new YamlBuilder();
     this.formatter = new FormattingRecognizer();
+    this.relations = {};
+    this.images = [];
   }
 
   /**
@@ -20,8 +22,12 @@ class MdBuilder {
   build(doc) {
     const parts = [];
 
+    // Сохраняем relations и images для использования при форматировании
+    this.relations = doc.relations || {};
+    this.images = doc.images || [];
+
     // 1. YAML front matter
-    parts.push(this.yamlBuilder.build(doc.metadata, doc.history));
+    parts.push(this.yamlBuilder.build(doc.metadata, doc.history, doc.relatedDocs));
 
     // 2. Разделы
     for (const section of doc.sections) {
@@ -77,12 +83,16 @@ class MdBuilder {
    */
   buildParagraph(p) {
     if (!p.text || !p.text.trim()) {
+      // Проверяем, может быть это параграф только с изображением
+      if (p.runs && p.runs.some(r => r.image)) {
+        return this.formatter.formatRuns(p.runs, this.relations, this.images);
+      }
       return null;
     }
 
     // Форматируем с учётом runs
     if (p.runs && p.runs.length > 0) {
-      return this.formatter.formatRuns(p.runs);
+      return this.formatter.formatRuns(p.runs, this.relations, this.images);
     }
 
     return p.text;

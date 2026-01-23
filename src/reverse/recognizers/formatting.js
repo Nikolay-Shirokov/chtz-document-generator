@@ -10,9 +10,11 @@ class FormattingRecognizer {
   /**
    * Преобразует runs в форматированный текст Markdown
    * @param {Array<Run>} runs - массив runs
+   * @param {Object} relations - связи (для изображений)
+   * @param {Array} images - массив изображений
    * @returns {string} форматированный текст
    */
-  formatRuns(runs) {
+  formatRuns(runs, relations = {}, images = []) {
     if (!runs || runs.length === 0) {
       return '';
     }
@@ -20,6 +22,15 @@ class FormattingRecognizer {
     const parts = [];
 
     for (const run of runs) {
+      // Обработка изображений
+      if (run.image) {
+        const imageMarkdown = this.formatImage(run.image, relations, images);
+        if (imageMarkdown) {
+          parts.push(imageMarkdown);
+        }
+        continue;
+      }
+
       let text = run.text;
       if (!text) continue;
 
@@ -159,6 +170,31 @@ class FormattingRecognizer {
     }
 
     return lines.join('\n');
+  }
+
+  /**
+   * Форматирует изображение в Markdown
+   */
+  formatImage(imageInfo, relations, images) {
+    // Получаем relationship для изображения
+    const rel = relations[imageInfo.id];
+    if (!rel || rel.type !== 'image') {
+      return '';
+    }
+
+    // Находим соответствующее изображение по target
+    const target = rel.target.replace(/^\//, ''); // Убираем начальный слеш
+    const image = images.find(img => img.id.includes(target) || img.filename === target.split('/').pop());
+
+    if (!image) {
+      return '';
+    }
+
+    // Генерируем Markdown ссылку
+    const alt = imageInfo.alt || 'image';
+    const path = `images/${image.filename}`;
+
+    return `![${alt}](${path})`;
   }
 
   /**

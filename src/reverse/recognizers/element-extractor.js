@@ -183,7 +183,8 @@ class ElementExtractor {
       text: '',
       bold: false,
       italic: false,
-      underline: false
+      underline: false,
+      image: null
     };
 
     // Свойства run
@@ -192,6 +193,17 @@ class ElementExtractor {
       result.bold = !!rPr['w:b'];
       result.italic = !!rPr['w:i'];
       result.underline = !!rPr['w:u'];
+    }
+
+    // Изображение (w:drawing)
+    const drawing = run['w:drawing'];
+    if (drawing) {
+      const imageInfo = this.extractImage(drawing);
+      if (imageInfo) {
+        result.image = imageInfo;
+        result.text = ''; // Изображения не имеют текста
+        return result;
+      }
     }
 
     // Текст
@@ -211,6 +223,49 @@ class ElementExtractor {
     }
 
     return result;
+  }
+
+  /**
+   * Извлекает информацию об изображении из w:drawing
+   */
+  extractImage(drawing) {
+    try {
+      // Изображения могут быть inline или anchor
+      const inline = drawing['wp:inline'] || drawing['wp:anchor'];
+      if (!inline) return null;
+
+      // Ищем blip (ссылку на изображение)
+      const graphic = inline['a:graphic'];
+      if (!graphic) return null;
+
+      const graphicData = graphic['a:graphicData'];
+      if (!graphicData) return null;
+
+      const pic = graphicData['pic:pic'];
+      if (!pic) return null;
+
+      const blipFill = pic['pic:blipFill'];
+      if (!blipFill) return null;
+
+      const blip = blipFill['a:blip'];
+      if (!blip) return null;
+
+      // Получаем relationship ID
+      const embedId = blip['@_r:embed'];
+      if (!embedId) return null;
+
+      // Получаем alt text (если есть)
+      const nvPicPr = pic['pic:nvPicPr'];
+      const cNvPr = nvPicPr ? nvPicPr['pic:cNvPr'] : null;
+      const alt = cNvPr ? (cNvPr['@_descr'] || cNvPr['@_name'] || '') : '';
+
+      return {
+        id: embedId,
+        alt: alt
+      };
+    } catch (e) {
+      return null;
+    }
   }
 
   /**

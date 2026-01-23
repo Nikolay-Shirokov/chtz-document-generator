@@ -11,9 +11,10 @@ class YamlBuilder {
    * Строит YAML front matter
    * @param {Metadata} metadata - метаданные документа
    * @param {Array<HistoryEntry>} history - история изменений
+   * @param {Array<RelatedDoc>} relatedDocs - связанные документы
    * @returns {string} YAML front matter
    */
-  build(metadata, history = []) {
+  build(metadata, history = [], relatedDocs = []) {
     const lines = ['---'];
 
     // Тип и версия
@@ -76,6 +77,17 @@ class YamlBuilder {
       lines.push(`    date: "${this.formatDate(new Date())}"`);
       lines.push('    comment: "Конвертировано из DOCX"');
       lines.push('    author: ""');
+    }
+
+    // Связанные документы (если есть)
+    if (relatedDocs && relatedDocs.length > 0) {
+      lines.push('');
+      lines.push('relatedDocs:');
+      for (const doc of relatedDocs) {
+        lines.push(`  - name: "${this.escape(doc.name || '')}"`);
+        lines.push(`    version: "${this.escape(doc.version || '')}"`);
+        lines.push(`    date: "${this.escape(doc.date || '')}"`);
+      }
     }
 
     lines.push('---');
