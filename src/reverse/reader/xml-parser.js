@@ -65,8 +65,11 @@ class XmlParser {
     // Находим закрывающий тег
     const { content, endPos } = this.findClosingTagContent(xml, tagName, contentStart);
 
+    // Проверяем атрибут xml:space="preserve"
+    const preserveSpace = attributes['@_xml:space'] === 'preserve';
+
     // Парсим содержимое
-    const children = this.parseContent(content);
+    const children = this.parseContent(content, preserveSpace);
 
     // Объединяем атрибуты и детей
     const elementContent = { ...attributes, ...children };
@@ -161,15 +164,17 @@ class XmlParser {
   /**
    * Парсит содержимое (дочерние элементы и текст)
    */
-  parseContent(content) {
+  parseContent(content, preserveSpace = false) {
     const result = {};
     const childrenOrder = []; // Сохраняем порядок элементов
     let pos = 0;
 
     while (pos < content.length) {
-      // Пропускаем пробелы
-      while (pos < content.length && /\s/.test(content[pos])) {
-        pos++;
+      // Пропускаем пробелы между элементами (но не если preserveSpace = true)
+      if (!preserveSpace) {
+        while (pos < content.length && /\s/.test(content[pos])) {
+          pos++;
+        }
       }
 
       if (pos >= content.length) break;
@@ -189,8 +194,14 @@ class XmlParser {
       } else {
         // Текст
         const textEnd = content.indexOf('<', pos);
-        const text = content.substring(pos, textEnd === -1 ? content.length : textEnd).trim();
-        if (text) {
+        let text = content.substring(pos, textEnd === -1 ? content.length : textEnd);
+
+        // Для текста с preserveSpace сохраняем как есть, иначе trimm'им
+        if (!preserveSpace) {
+          text = text.trim();
+        }
+
+        if (text || preserveSpace) {
           result['#text'] = this.decodeXml(text);
         }
         pos = textEnd === -1 ? content.length : textEnd;
