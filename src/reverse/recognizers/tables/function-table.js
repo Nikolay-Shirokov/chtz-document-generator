@@ -3,6 +3,8 @@
  * Формат: 3 строки × 2 колонки (Функция, Задача, Сценарий)
  */
 
+const { tableToMarkdownIndented } = require('./table-to-markdown');
+
 class FunctionTableRecognizer {
   constructor(options = {}) {
     this.options = options;
@@ -55,7 +57,28 @@ class FunctionTableRecognizer {
     // Извлекаем значения из второй колонки
     const functionText = this.cleanText(table.rows[0].cells[1].text);
     const taskText = this.cleanText(table.rows[1].cells[1].text);
-    const scenarioText = table.rows[2].cells[1].text; // Не очищаем сценарий, сохраняем структуру
+
+    // Обрабатываем сценарий с возможными вложенными таблицами
+    const scenarioCell = table.rows[2].cells[1];
+    let scenarioText = scenarioCell.text || '';
+
+    // Если в ячейке сценария есть вложенные таблицы, конвертируем их в Markdown
+    if (scenarioCell.tables && scenarioCell.tables.length > 0) {
+      // Добавляем текст сценария (если есть)
+      let fullScenario = scenarioText.trim();
+
+      // Добавляем пустую строку перед таблицами, если есть текст
+      if (fullScenario) {
+        fullScenario += '\n';
+      }
+
+      // Конвертируем каждую вложенную таблицу в Markdown с отступом
+      const nestedTablesMarkdown = scenarioCell.tables.map(nestedTable => {
+        return '\n' + tableToMarkdownIndented(nestedTable, 1);
+      }).join('\n');
+
+      scenarioText = fullScenario + nestedTablesMarkdown;
+    }
 
     // Извлекаем URL из taskText, если есть
     const urlMatch = taskText.match(/(https?:\/\/\S+)/i);

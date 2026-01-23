@@ -265,12 +265,78 @@ function extractMarkdownText(node, depth = 0) {
     }
     return '';
   }
-  
+
+  // Таблица - конвертируем в Markdown синтаксис
+  if (node.type === 'table') {
+    const indent = '  '.repeat(depth);
+    const rows = [];
+
+    if (node.children) {
+      for (let rowIndex = 0; rowIndex < node.children.length; rowIndex++) {
+        const rowNode = node.children[rowIndex];
+        if (rowNode.type === 'tableRow' && rowNode.children) {
+          const cells = rowNode.children
+            .filter(cell => cell.type === 'tableCell')
+            .map(cell => {
+              // Извлекаем текст из ячейки
+              const cellText = cell.children
+                ? cell.children.map(c => extractMarkdownText(c, depth)).join('').trim()
+                : '';
+              // Заменяем переводы строк на <br> и экранируем pipe
+              return cellText.replace(/\n/g, '<br>').replace(/\|/g, '\\|');
+            });
+
+          // Формируем строку таблицы
+          rows.push(`${indent}| ${cells.join(' | ')} |`);
+
+          // После первой строки добавляем разделитель
+          if (rowIndex === 0) {
+            const separator = cells.map(() => '---').join(' | ');
+            rows.push(`${indent}| ${separator} |`);
+          }
+        }
+      }
+    }
+
+    return '\n' + rows.join('\n') + '\n';
+  }
+
+  // Строка таблицы - обрабатывается в table выше
+  if (node.type === 'tableRow') {
+    // Не должно вызываться напрямую, но на всякий случай
+    return '';
+  }
+
+  // Ячейка таблицы - обрабатывается в table выше
+  if (node.type === 'tableCell') {
+    // Не должно вызываться напрямую, но на всякий случай
+    return '';
+  }
+
+  // Код (code block) - может содержать Markdown таблицу
+  if (node.type === 'code') {
+    // Проверяем, является ли это Markdown таблицей
+    const codeContent = node.value || '';
+    const lines = codeContent.split('\n').filter(l => l.trim()); // Убираем пустые строки
+
+    // Проверяем, начинается ли с pipe (Markdown таблица)
+    if (lines.length > 0 && lines[0].trim().startsWith('|')) {
+      // Это Markdown таблица, сохраняем как есть с отступом
+      const indent = '  '.repeat(depth);
+      const tableLines = lines.map(l => indent + l.trim()).join('\n');
+      // Добавляем newline только в начале если это первый блок (depth == 0)
+      return '\n' + tableLines + '\n';
+    }
+
+    // Обычный код - не должно быть в function-table, но на всякий случай
+    return '';
+  }
+
   // Для остальных узлов с детьми - рекурсивно обрабатываем
   if (node.children) {
     return node.children.map(c => extractMarkdownText(c, depth)).join('');
   }
-  
+
   return '';
 }
 
@@ -281,7 +347,7 @@ function extractMarkdownText(node, depth = 0) {
  */
 function processFunctionTableDirective(node) {
   const attrs = parseDirectiveAttributes(node);
-  
+
   // Извлекаем текстовое содержимое с сохранением Markdown-форматирования
   let textContent = '';
   if (node.children) {

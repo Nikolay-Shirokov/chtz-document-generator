@@ -337,6 +337,7 @@ class ElementExtractor {
   extractTableCell(tc, ast) {
     const cell = {
       paragraphs: [],
+      tables: [],  // Добавляем поддержку вложенных таблиц
       text: ''
     };
 
@@ -352,7 +353,19 @@ class ElementExtractor {
       }
     }
 
-    // Собираем текст
+    // Вложенные таблицы в ячейке
+    const nestedTables = tc['w:tbl'];
+    if (nestedTables) {
+      const tblArray = Array.isArray(nestedTables) ? nestedTables : [nestedTables];
+      for (const tbl of tblArray) {
+        const extractedTable = this.extractTable(tbl, ast);
+        if (extractedTable) {
+          cell.tables.push(extractedTable);
+        }
+      }
+    }
+
+    // Собираем текст из параграфов
     cell.text = cell.paragraphs.map(p => p.text).join('\n');
 
     return cell;

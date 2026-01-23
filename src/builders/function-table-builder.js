@@ -5,6 +5,7 @@
 const { escapeXml } = require('../utils/xml-utils');
 const { buildTable, buildTableRow, buildTableCell } = require('./table-builder');
 const { buildImageParagraph } = require('./image-builder');
+const { parseMarkdownTable } = require('../utils/markdown-table-parser');
 
 /**
  * Парсинг атрибутов изображения из URL
@@ -66,11 +67,32 @@ function parseScenarioMarkdown(scenarioText) {
   const lines = scenarioText.split('\n');
   const result = [];
   let currentList = null;
-  
-  for (const line of lines) {
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
     const trimmed = line.trim();
-    if (!trimmed) continue;
-    
+
+    if (!trimmed) {
+      i++;
+      continue;
+    }
+
+    // Проверка на начало Markdown таблицы
+    if (trimmed.startsWith('|')) {
+      if (currentList) {
+        result.push(currentList);
+        currentList = null;
+      }
+
+      const parsed = parseMarkdownTable(lines, i);
+      if (parsed) {
+        result.push(parsed.table);
+        i = parsed.endIndex + 1;
+        continue;
+      }
+    }
+
     // Проверка на изображение: ![alt](url) или ![alt](url){attrs} или ![alt](url{attrs})
     const imageMatch = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)(\{[^}]+\})?$/);
     if (imageMatch) {
@@ -81,7 +103,7 @@ function parseScenarioMarkdown(scenarioText) {
       const alt = imageMatch[1];
       let url = imageMatch[2];
       let attributes = {};
-      
+
       // Атрибуты могут быть внутри URL или после скобки
       // Вариант 1: ![alt](url{attrs})
       const attrInUrl = url.match(/^(.+?)\{(.+?)\}$/);
@@ -103,11 +125,12 @@ function parseScenarioMarkdown(scenarioText) {
           attributes[m[1]] = m[2];
         }
       }
-      
+
       result.push({ type: 'image', url, alt, attributes });
+      i++;
       continue;
     }
-    
+
     const numberedMatch = trimmed.match(/^(\d+)\.\s+(.+)$/);
     if (numberedMatch) {
       if (!currentList || currentList.type !== 'numbered') {
@@ -115,9 +138,10 @@ function parseScenarioMarkdown(scenarioText) {
         currentList = { type: 'numbered', items: [] };
       }
       currentList.items.push(numberedMatch[2]);
+      i++;
       continue;
     }
-    
+
     const bulletMatch = trimmed.match(/^[-*]\s+(.+)$/);
     if (bulletMatch) {
       if (!currentList || currentList.type !== 'bullet') {
@@ -125,20 +149,22 @@ function parseScenarioMarkdown(scenarioText) {
         currentList = { type: 'bullet', items: [] };
       }
       currentList.items.push(bulletMatch[1]);
+      i++;
       continue;
     }
-    
+
     if (currentList) {
       result.push(currentList);
       currentList = null;
     }
     result.push({ type: 'text', content: trimmed });
+    i++;
   }
-  
+
   if (currentList) {
     result.push(currentList);
   }
-  
+
   return result;
 }
 
@@ -147,10 +173,10 @@ function parseScenarioMarkdown(scenarioText) {
  */
 function buildScenarioContent(scenarioText, styles, context = {}) {
   if (!scenarioText) return '<w:p/>';
-  
+
   const parsed = parseScenarioMarkdown(scenarioText);
   const result = [];
-  
+
   for (const item of parsed) {
     if (item.type === 'text') {
       const runs = processTextFormatting(item.content);
@@ -177,9 +203,42 @@ function buildScenarioContent(scenarioText, styles, context = {}) {
       }, context, styles);
       result.push(imagePara);
     }
+    else if (item.type === 'table') {
+      // Генерируем вложенную таблицу
+      const nestedTable = buildNestedTable(item.rows, styles);
+      result.push(nestedTable);
+    }
   }
-  
+
   return result.length > 0 ? result.join('') : '<w:p/>';
+}
+
+/**
+ * Генерация вложенной таблицы из Markdown
+ */
+function buildNestedTable(rows, styles) {
+  if (!rows || rows.length === 0) return '';
+
+  const tableRows = [];
+
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    const cells = [];
+
+    for (const cellText of row) {
+      // Обрабатываем <br> как переводы строк
+      const paragraphs = cellText.split('<br>').map(text => {
+        const runs = processTextFormatting(text.trim());
+        return `<w:p>${runs}</w:p>`;
+      }).join('');
+
+      cells.push(buildTableCell(paragraphs));
+    }
+
+    tableRows.push(buildTableRow(cells));
+  }
+
+  return buildTable(tableRows, { nested: true });
 }
 
 /**
