@@ -33,8 +33,13 @@ class RecognizerPipeline {
     // 2. Распознаём метаданные и историю из таблиц
     const metadataResult = this.metadataRecognizer.recognize(elements);
 
-    // 3. Распознаём разделы
-    const sections = this.sectionRecognizer.recognize(elements, ast);
+    // 3. Фильтруем элементы - убираем таблицы метаданных для SectionRecognizer
+    const contentElements = elements.filter((el, i) =>
+      !metadataResult.metadataIndices.includes(i)
+    );
+
+    // 4. Распознаём разделы (без таблиц метаданных)
+    const sections = this.sectionRecognizer.recognize(contentElements, ast);
     this.warnings.push(...this.sectionRecognizer.warnings);
 
     return {

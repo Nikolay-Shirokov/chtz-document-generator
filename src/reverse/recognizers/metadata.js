@@ -11,7 +11,7 @@ class MetadataRecognizer {
   /**
    * Извлекает метаданные из элементов документа
    * @param {Array<Element>} elements - все элементы документа
-   * @returns {{metadata: Object, history: Array, relatedDocs: Array}}
+   * @returns {{metadata: Object, history: Array, relatedDocs: Array, metadataIndices: Array}}
    */
   recognize(elements) {
     // Ищем таблицы метаданных в начале документа (до первого заголовка)
@@ -21,7 +21,12 @@ class MetadataRecognizer {
     const history = this.extractHistory(metadataTables.history);
     const relatedDocs = this.extractRelatedDocs(metadataTables.related);
 
-    return { metadata, history, relatedDocs };
+    return {
+      metadata,
+      history,
+      relatedDocs,
+      metadataIndices: metadataTables.indices
+    };
   }
 
   /**
@@ -31,11 +36,14 @@ class MetadataRecognizer {
     const result = {
       main: null,      // Основная таблица метаданных
       history: null,   // Таблица истории изменений
-      related: null    // Таблица связанных документов
+      related: null,   // Таблица связанных документов
+      indices: []      // Индексы всех таблиц метаданных
     };
 
     // Ищем таблицы до первого заголовка
-    for (const el of elements) {
+    for (let i = 0; i < elements.length; i++) {
+      const el = elements[i];
+
       // Останавливаемся на первом заголовке
       if (el.type === 'paragraph' && el.isHeading && el.headingLevel === 1) {
         break;
@@ -47,11 +55,14 @@ class MetadataRecognizer {
         // Определяем тип таблицы по первой ячейке
         if (firstCell.includes('общее описание')) {
           result.main = el;
+          result.indices.push(i);
         } else if (firstCell.includes('версия') && el.rows[0].cells.length >= 3) {
           // Таблица истории: "Версия | Дата | Комментарий | Автор"
           result.history = el;
+          result.indices.push(i);
         } else if (firstCell.includes('название документа') || firstCell.includes('связанные документы')) {
           result.related = el;
+          result.indices.push(i);
         }
       }
     }
