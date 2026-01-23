@@ -9,21 +9,21 @@
 
 **Использование:**
 ```bash
-node debug/analyze-heading-runs.js
+node debug/analyze-heading-runs.js path/to/document.docx
 ```
 
 **Что делает:**
-- Находит все заголовки с "Таблица" и "Подписание"
+- Находит все заголовки таблиц (содержащие слово "Таблица")
 - Показывает структуру runs (w:r элементов)
 - Отображает xml:space="preserve" атрибуты
-- Помогает понять, почему пропадают пробелы
+- Помогает понять, почему пропадают пробелы между словами
 
 ### debug-br-extraction.js
 Проверяет, создаются ли множественные параграфы в ячейках таблиц при наличии `<br>` тегов.
 
 **Использование:**
 ```bash
-node debug/debug-br-extraction.js [path-to-docx]
+node debug/debug-br-extraction.js path/to/document.docx
 ```
 
 **Что делает:**
@@ -37,7 +37,7 @@ node debug/debug-br-extraction.js [path-to-docx]
 
 **Использование:**
 ```bash
-node debug/find-nested-tables.js [path-to-docx]
+node debug/find-nested-tables.js path/to/document.docx
 ```
 
 **Что делает:**
@@ -51,7 +51,7 @@ node debug/find-nested-tables.js [path-to-docx]
 
 **Использование:**
 ```bash
-node debug/check-raw-xml.js [path-to-docx]
+node debug/check-raw-xml.js path/to/document.docx
 ```
 
 **Что делает:**
@@ -74,15 +74,20 @@ node debug/check-raw-xml.js [path-to-docx]
 
 ### Проверить, сохраняются ли пробелы
 ```bash
-node debug/analyze-heading-runs.js
+node debug/analyze-heading-runs.js path/to/document.docx
 ```
 
 ### Проверить создание параграфов из <br>
 ```bash
-node debug/debug-br-extraction.js test-br-tags.docx
+node debug/debug-br-extraction.js path/to/document.docx
 ```
 
 ### Найти все вложенные таблицы
 ```bash
-node debug/find-nested-tables.js "tests/test1-original/Очередь1_*.docx"
+node debug/find-nested-tables.js path/to/document.docx
+```
+
+### Проверить raw XML структуру
+```bash
+node debug/check-raw-xml.js path/to/document.docx
 ```

@@ -1,11 +1,20 @@
 /**
- * Анализ структуры runs в заголовках таблиц 6 и 7
+ * Анализ структуры runs в заголовках таблиц
+ *
+ * Использование:
+ *   node debug/analyze-heading-runs.js path/to/document.docx
  */
 
 const AdmZip = require('adm-zip');
 const { XmlParser } = require('./src/reverse/reader/xml-parser');
 
-const docxPath = 'tests/test1-original/Очередь1_Реализация_изменений_функционала_МЧД_минимум_1.docx';
+const docxPath = process.argv[2];
+
+if (!docxPath) {
+  console.error('Укажите путь к DOCX файлу:');
+  console.error('  node debug/analyze-heading-runs.js path/to/document.docx');
+  process.exit(1);
+}
 
 const zip = new AdmZip(docxPath);
 const docXml = zip.readAsText('word/document.xml');
@@ -31,8 +40,8 @@ function findHeadings(obj, path = '') {
           return typeof wT === 'string' ? wT : (wT ? wT['#text'] || '' : '');
         }).join('');
 
-        // Проверяем, содержит ли "Таблица" и "Подписание"
-        if (fullText.includes('Таблица') && fullText.includes('Подписание')) {
+        // Ищем заголовки таблиц (можно изменить критерий поиска)
+        if (fullText.includes('Таблица')) {
           console.log('\n='.repeat(80));
           console.log('Найден заголовок:', fullText);
           console.log('Количество runs:', rArray.length);

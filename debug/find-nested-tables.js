@@ -1,9 +1,22 @@
+/**
+ * Поиск и анализ вложенных таблиц в DOCX документе
+ *
+ * Использование:
+ *   node debug/find-nested-tables.js path/to/document.docx
+ */
+
 const fs = require('fs');
 const path = require('path');
 const AdmZip = require('adm-zip');
 const { DOMParser } = require('xmldom');
 
-const docxPath = process.argv[2] || 'tests/test1-original/Очередь1_Реализация_изменений_функционала_МЧД_минимум_1.docx';
+const docxPath = process.argv[2];
+
+if (!docxPath) {
+  console.error('Укажите путь к DOCX файлу:');
+  console.error('  node debug/find-nested-tables.js path/to/document.docx');
+  process.exit(1);
+}
 
 console.log('Анализ файла:', docxPath);
 console.log('='.repeat(80));
