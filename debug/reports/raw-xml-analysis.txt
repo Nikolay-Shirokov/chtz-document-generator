@@ -1,0 +1,1004 @@
+=== Анализ RAW XML для Таблица 6 ===
+
+RAW XML параграфа "Таблица 6":
+<w:p w14:paraId="3F376FBD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:ind w:left="0" w:right="118"/><w:rPr><w:color w:val="808080" w:themeColor="background1" w:themeShade="80"/></w:rPr></w:pPr></w:p><w:p w14:paraId="4CC67EAD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="af7"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr><w:spacing w:before="120" w:line="360" w:lineRule="auto"/><w:ind w:left="714" w:hanging="357"/><w:jc w:val="left"/><w:rPr><w:i/><w:lang w:val="ru-RU"/></w:rPr></w:pPr><w:r><w:rPr><w:lang w:val="ru-RU"/></w:rPr><w:t>Описание изменений в ИТ-системе</w:t></w:r></w:p><w:p w14:paraId="75F68497" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="auto"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Таблица 1. Интерфейс для входящих ЭД в АРМ «Модуля ЭДО»</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1553"/><w:gridCol w:w="13573"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="12CB64E2" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="0D499B94" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="5BE24705" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>Добавление на форму входящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента.</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="7B26637D" w14:textId="77777777"><w:trPr><w:trHeight w:val="551"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="1FE9F251" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="6D01DA73" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId8" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="59FCD7E2" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="0AC39A0A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Сценарий</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="0CF92D34" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>1. Добавление в список сообщений на форме входящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (отправителя).</w:t></w:r></w:p><w:p w14:paraId="4E47E6E0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="3771080D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД отправителя: обнаружены ошибки»</w:t></w:r></w:p><w:p w14:paraId="064EAB0D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться неудачным, указаны</w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve"> в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="1304BA69" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="6"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="377019D3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД отправителя: проверка пройдена частично, требуется подтверждение»</w:t></w:r></w:p><w:p w14:paraId="629B78A9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться частично успешным, указаны</w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve"> в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="0170D067" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="5FF7AD33" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД отправителя: проверка пройдена успешно»</w:t></w:r></w:p><w:p w14:paraId="3BBC56B2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="3260"/></w:tabs><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться успешным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve"> в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="4356AF73" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Месторасположение сообщения указано на рисунке ниже.</w:t></w:r></w:p><w:p w14:paraId="6F959EE0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:noProof/></w:rPr><w:lastRenderedPageBreak/><mc:AlternateContent><mc:Choice Requires="wpg"><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="321ADB60" wp14:editId="4B5EC62B"><wp:extent cx="3284770" cy="3123650"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="2" name="Рисунок 3"/><wp:cNvGraphicFramePr><a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="762128700" name=""/><pic:cNvPicPr><a:picLocks noChangeAspect="1"/></pic:cNvPicPr></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId9"/><a:stretch/></pic:blipFill><pic:spPr bwMode="auto"><a:xfrm><a:off x="0" y="0"/><a:ext cx="3284768" cy="3123648"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></mc:Choice><mc:Fallback xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><w:pict><v:shapetype type="#_x0000_t75" o:spt="75" coordsize="21600,21600" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"/><v:f eqn="sum @0 1 0"/><v:f eqn="sum 0 0 @1"/><v:f eqn="prod @2 1 2"/><v:f eqn="prod @3 21600 pixelWidth"/><v:f eqn="prod @3 21600 pixelHeight"/><v:f eqn="sum @0 0 1"/><v:f eqn="prod @6 1 2"/><v:f eqn="prod @7 21600 pixelWidth"/><v:f eqn="sum @8 21600 0"/><v:f eqn="prod @7 21600 pixelHeight"/><v:f eqn="sum @10 21600 0"/></v:formulas></v:shapetype><v:shape id="_x0000_i1" o:spid="_x0000_s1" type="#_x0000_t75" style="width:258.64pt;height:245.96pt;mso-wrap-distance-left:0.00pt;mso-wrap-distance-top:0.00pt;mso-wrap-distance-right:0.00pt;mso-wrap-distance-bottom:0.00pt;" stroked="false"><v:path textboxrect="0,0,0,0"/><v:imagedata r:id="rId13" o:title=""/></v:shape></w:pict></mc:Fallback></mc:AlternateContent></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="53F2D124" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="254E3C54" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Таблица 2. Условия определения общего результата проверки МЧД контрагента</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1553"/><w:gridCol w:w="13573"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="2BFD4B99" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="456D2BB8" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="08331D72" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>Фиксация условий определения общего результата проверки МЧД контрагента (при получении подписи контрагента по входящим и исходящим ЭД)</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="33FBA406" w14:textId="77777777"><w:trPr><w:trHeight w:val="551"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="2F49F45D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="43306E13" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId14" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="5355C685" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="57D03AD7" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Сценарий</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="6A6E40F1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>1. Условия определения общего результата проверки МЧД контрагента (при получении).</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblStyle w:val="afb"/><w:tblW w:w="0" w:type="auto"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="6679"/><w:gridCol w:w="6679"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="6B3C3DCC" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/></w:tcPr><w:p w14:paraId="22BE3A8A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr><w:t>Общий результат проверки МЧД</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/></w:tcPr><w:p w14:paraId="76D88391" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr><w:t>Условия для определения результата</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="017AE463" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="011B9926" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Обнаружены ошибки</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="1ACEF8C9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться неудачным (И/ИЛИ):</w:t></w:r></w:p><w:p w14:paraId="112AF06B" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:lastRenderedPageBreak/><w:t xml:space="preserve">При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: </w:t></w:r></w:p><w:p w14:paraId="3755FD18" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>нет полномочий из МЧД (после загрузки в систему);</w:t></w:r></w:p><w:p w14:paraId="78DB5719" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>нет сопоставления полномочий из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД» ни по одной строке;</w:t></w:r></w:p><w:p w14:paraId="11A94648" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve">ни в одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», отсутствует указание Вида ЭД, соответствующее </w:t></w:r><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Виду</w:t></w:r><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve"> полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);</w:t></w:r></w:p><w:p w14:paraId="25F9F6B9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлено «Реакция» = «Блокировать».</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="03ED0B47" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="629860E3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:lastRenderedPageBreak/><w:t>Проверка пройдена частично</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="0AC9C3C7" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>При выполнении проверок, выполняются условия, определяющие успешный результат, за исключением (И/ИЛИ):</w:t></w:r></w:p><w:p w14:paraId="79686A07" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Предупреждать»;</w:t></w:r></w:p><w:p w14:paraId="35B88C59" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>В элементе справочника «Доверенности (ЭДО)» для данной МЧД есть хотя бы одно полномочие (после загрузки в систему), где «Вид проверки» = «Ручная».</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="45BFF6B0" w14:textId="77777777"><w:trPr><w:trHeight w:val="253"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:vMerge w:val="restart"/></w:tcPr><w:p w14:paraId="37D64735" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:lastRenderedPageBreak/><w:t>Проверка пройдена успешно</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:vMerge w:val="restart"/></w:tcPr><w:p w14:paraId="3276A0BC" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться успешным (И):</w:t></w:r></w:p><w:p w14:paraId="0C011608" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve">При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: </w:t></w:r></w:p><w:p w14:paraId="20B6DA32" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve">Хотя бы по одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», есть указание Вида ЭД, соответствующее </w:t></w:r><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Виду</w:t></w:r><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve"> полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);</w:t></w:r></w:p><w:p w14:paraId="21DD66DD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Соблюдаются все правила проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Блокировать». Или есть правила, которые при проверке не соблюдаются, но для них установлена реакция «Игнорировать».</w:t></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="7067A5EF" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"/></w:tc></w:tr></w:tbl><w:p w14:paraId="1CADD088" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="5325C0AE" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve">Таблица 3. Интерфейс для исходящих ЭД в АРМ «Модуля ЭДО» </w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1418"/><w:gridCol w:w="13708"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="24983F3E" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="6A5DB3CB" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="27C751C2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>Добавление на форму исходящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента.</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="00F43BB3" w14:textId="77777777"><w:trPr><w:trHeight w:val="551"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="7FBEF719" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="5C1A8885" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId15" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="066AD2AF" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="34A2EC4A" w14:textId="3EBDEF2E" w:rsidR="0052275C" w:rsidRDefault="00EE195C"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:spacing w:after="120"/><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:lastRenderedPageBreak/><w:t>Сценарий</w:t></w:r><w:bookmarkStart w:id="0" w:name="_GoBack"/><w:bookmarkEnd w:id="0"/></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="694F9771" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>1. Добавление в список сообщений на форме исходящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (получателя).</w:t></w:r></w:p><w:p w14:paraId="2D71B71C" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="7E8A8249" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД получателя: обнаружены ошибки»</w:t></w:r></w:p><w:p w14:paraId="22B537E9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться неудачным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="1D2EB632" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="241059C2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД получателя: проверка пройдена частично, требуется подтверждение»</w:t></w:r></w:p><w:p w14:paraId="225026CB" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться частично успешным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="77ECFFE0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="5A21352D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД получателя: проверка пройдена успешно»</w:t></w:r></w:p><w:p w14:paraId="4701E27A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="709"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться успешным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="2E5A4813" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Месторасположение сообщения указано на рисунке ниже.</w:t></w:r></w:p><w:p w14:paraId="588BCE01" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:noProof/></w:rPr><w:lastRenderedPageBreak/><mc:AlternateContent><mc:Choice Requires="wpg"><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="0DE546BA" wp14:editId="2FD6FEA6"><wp:extent cx="3790434" cy="4253862"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="3" name="Рисунок 4"/><wp:cNvGraphicFramePr><a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="143077267" name=""/><pic:cNvPicPr><a:picLocks noChangeAspect="1"/></pic:cNvPicPr></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId16"/><a:stretch/></pic:blipFill><pic:spPr bwMode="auto"><a:xfrm><a:off x="0" y="0"/><a:ext cx="3790432" cy="4253860"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></mc:Choice><mc:Fallback xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><w:pict><v:shapetype type="#_x0000_t75" o:spt="75" coordsize="21600,21600" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"/><v:f eqn="sum @0 1 0"/><v:f eqn="sum 0 0 @1"/><v:f eqn="prod @2 1 2"/><v:f eqn="prod @3 21600 pixelWidth"/><v:f eqn="prod @3 21600 pixelHeight"/><v:f eqn="sum @0 0 1"/><v:f eqn="prod @6 1 2"/><v:f eqn="prod @7 21600 pixelWidth"/><v:f eqn="sum @8 21600 0"/><v:f eqn="prod @7 21600 pixelHeight"/><v:f eqn="sum @10 21600 0"/></v:formulas></v:shapetype><v:shape id="_x0000_i2" o:spid="_x0000_s2" type="#_x0000_t75" style="width:298.46pt;height:334.95pt;mso-wrap-distance-left:0.00pt;mso-wrap-distance-top:0.00pt;mso-wrap-distance-right:0.00pt;mso-wrap-distance-bottom:0.00pt;" stroked="false"><v:path textboxrect="0,0,0,0"/><v:imagedata r:id="rId17" o:title=""/></v:shape></w:pict></mc:Fallback></mc:AlternateContent></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="4B2140A4" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="55B9AED7" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="4F755116" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="62B490CE" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="44242A8B" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="3A80EC11" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="7EED0C48" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Таблица 4. Работа с формой «Анализ расхождений»</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1418"/><w:gridCol w:w="13708"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="103B2AE1" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="66FD2AA1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="195941BA" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:jc w:val="both"/><w:rPr><w:rFonts w:eastAsia="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Отображение информации о проверках МЧД контрагента для входящих и исходящих ЭД.</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="2B30EDD8" w14:textId="77777777"><w:trPr><w:trHeight w:val="805"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="48E8B6F4" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="22BF97D8" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId18" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="6B76DA5F" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="0F21500A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Сценарий</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="0C083793" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Кнопку «Просмотреть отчет», по которой открывается форма «Анализ расхождений» необходимо отображать в Исходящих ЭД, вне зависимости от статуса ЭД.</w:t></w:r></w:p><w:p w14:paraId="3248AEC3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:spacing w:after="120"/><w:ind w:left="709"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr></w:p><w:p w14:paraId="296536B3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">На форме «Анализ расхождений», в разделе «Проверка МЧД»: </w:t></w:r></w:p><w:p w14:paraId="2AF02BEC" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="1134" w:hanging="425"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>По кнопке «Проверить» отображать стандартную форму результата проверки МЧД («Статус МЧД»), поставляемую «Модулем ЭДО</w:t></w:r><w:commentRangeStart w:id="1"/><w:commentRangeStart w:id="2"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>»;</w:t></w:r><w:commentRangeEnd w:id="1"/><w:commentRangeEnd w:id="2"/><w:r><w:commentReference w:id="1"/></w:r><w:r><w:commentReference w:id="2"/></w:r></w:p><w:p w14:paraId="45E54C8B" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="1134"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:noProof/></w:rPr><mc:AlternateContent><mc:Choice Requires="wpg"><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="65F3FF2B" wp14:editId="5C90FECB"><wp:extent cx="3489213" cy="2400535"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="4" name="Рисунок 4"/><wp:cNvGraphicFramePr><a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="2126147630" name=""/><pic:cNvPicPr><a:picLocks noChangeAspect="1"/></pic:cNvPicPr></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId22"/><a:stretch/></pic:blipFill><pic:spPr bwMode="auto"><a:xfrm><a:off x="0" y="0"/><a:ext cx="3489212" cy="2400534"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></mc:Choice><mc:Fallback xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><w:pict><v:shapetype type="#_x0000_t75" o:spt="75" coordsize="21600,21600" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"/><v:f eqn="sum @0 1 0"/><v:f eqn="sum 0 0 @1"/><v:f eqn="prod @2 1 2"/><v:f eqn="prod @3 21600 pixelWidth"/><v:f eqn="prod @3 21600 pixelHeight"/><v:f eqn="sum @0 0 1"/><v:f eqn="prod @6 1 2"/><v:f eqn="prod @7 21600 pixelWidth"/><v:f eqn="sum @8 21600 0"/><v:f eqn="prod @7 21600 pixelHeight"/><v:f eqn="sum @10 21600 0"/></v:formulas></v:shapetype><v:shape id="_x0000_i3" o:spid="_x0000_s3" type="#_x0000_t75" style="width:274.74pt;height:189.02pt;mso-wrap-distance-left:0.00pt;mso-wrap-distance-top:0.00pt;mso-wrap-distance-right:0.00pt;mso-wrap-distance-bottom:0.00pt;" stroked="false"><v:path textboxrect="0,0,0,0"/><v:imagedata r:id="rId23" o:title=""/></v:shape></w:pict></mc:Fallback></mc:AlternateContent></w:r></w:p><w:p w14:paraId="08B65C2C" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="1559"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Для входящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя, но и получателя, при наличии, после подписания в СТИУМ;</w:t></w:r></w:p><w:p w14:paraId="56FAB822" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="1559"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:lastRenderedPageBreak/><w:t>Для исходящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя из АРМ ЭДО в СТИУМ, но и получателя, при наличии после подписания КА.</w:t></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="49A46F8A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="4457D2E1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve">Таблица </w:t></w:r><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>6.Подписание</w:t></w:r><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve"> входящих ЭД</w:t></w:r></w:p>
+
+
+=== Форматированный вывод ===
+
+Найдено 86 текстовых прогонов (w:r)
+
+--- Прогон #0 ---
+Текст: "Описание изменений в ИТ-системе"
+Имеет форматирование (w:rPr)
+
+--- Прогон #1 ---
+Текст: "Таблица 1. Интерфейс для входящих ЭД в АРМ «Модуля ЭДО»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #2 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #3 ---
+Текст: "Добавление на форму входящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента."
+Имеет форматирование (w:rPr)
+
+--- Прогон #4 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #5 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #6 ---
+Текст: "1. Добавление в список сообщений на форме входящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (отправителя)."
+Имеет форматирование (w:rPr)
+
+--- Прогон #7 ---
+Текст: "Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #8 ---
+Текст: "«Проверка МЧД отправителя: обнаружены ошибки»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #9 ---
+Текст: "Условия, при которых общий результат проверки будет считаться неудачным, указаны"
+Имеет форматирование (w:rPr)
+
+--- Прогон #10 ---
+Текст: " в таблице 2."
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #11 ---
+Текст: "Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #12 ---
+Текст: "«Проверка МЧД отправителя: проверка пройдена частично, требуется подтверждение»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #13 ---
+Текст: "Условия, при которых общий результат проверки будет считаться частично успешным, указаны"
+Имеет форматирование (w:rPr)
+
+--- Прогон #14 ---
+Текст: " в таблице 2."
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #15 ---
+Текст: "Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #16 ---
+Текст: "«Проверка МЧД отправителя: проверка пройдена успешно»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #17 ---
+Текст: "Условия, при которых общий результат проверки будет считаться успешным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #18 ---
+Текст: " в таблице 2."
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #19 ---
+Текст: "Месторасположение сообщения указано на рисунке ниже."
+Имеет форматирование (w:rPr)
+
+--- Прогон #20 ---
+Имеет форматирование (w:rPr)
+
+--- Прогон #21 ---
+Текст: "Таблица 2. Условия определения общего результата проверки МЧД контрагента"
+Имеет форматирование (w:rPr)
+
+--- Прогон #22 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #23 ---
+Текст: "Фиксация условий определения общего результата проверки МЧД контрагента (при получении подписи контрагента по входящим и исходящим ЭД)"
+Имеет форматирование (w:rPr)
+
+--- Прогон #24 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #25 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #26 ---
+Текст: "1. Условия определения общего результата проверки МЧД контрагента (при получении)."
+Имеет форматирование (w:rPr)
+
+--- Прогон #27 ---
+Текст: "Общий результат проверки МЧД"
+Имеет форматирование (w:rPr)
+
+--- Прогон #28 ---
+Текст: "Условия для определения результата"
+Имеет форматирование (w:rPr)
+
+--- Прогон #29 ---
+Текст: "Обнаружены ошибки"
+Имеет форматирование (w:rPr)
+
+--- Прогон #30 ---
+Текст: "Условия, при которых общий результат проверки будет считаться неудачным (И/ИЛИ):"
+Имеет форматирование (w:rPr)
+
+--- Прогон #31 ---
+Текст: "При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #32 ---
+Текст: "нет полномочий из МЧД (после загрузки в систему);"
+Имеет форматирование (w:rPr)
+
+--- Прогон #33 ---
+Текст: "нет сопоставления полномочий из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД» ни по одной строке;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #34 ---
+Текст: "ни в одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», отсутствует указание Вида ЭД, соответствующее "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #35 ---
+Текст: "Виду"
+Имеет форматирование (w:rPr)
+
+--- Прогон #36 ---
+Текст: " полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);"
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #37 ---
+Текст: "Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлено «Реакция» = «Блокировать»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #38 ---
+Текст: "Проверка пройдена частично"
+Имеет форматирование (w:rPr)
+
+--- Прогон #39 ---
+Текст: "При выполнении проверок, выполняются условия, определяющие успешный результат, за исключением (И/ИЛИ):"
+Имеет форматирование (w:rPr)
+
+--- Прогон #40 ---
+Текст: "Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Предупреждать»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #41 ---
+Текст: "В элементе справочника «Доверенности (ЭДО)» для данной МЧД есть хотя бы одно полномочие (после загрузки в систему), где «Вид проверки» = «Ручная»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #42 ---
+Текст: "Проверка пройдена успешно"
+Имеет форматирование (w:rPr)
+
+--- Прогон #43 ---
+Текст: "Условия, при которых общий результат проверки будет считаться успешным (И):"
+Имеет форматирование (w:rPr)
+
+--- Прогон #44 ---
+Текст: "При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #45 ---
+Текст: "Хотя бы по одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», есть указание Вида ЭД, соответствующее "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #46 ---
+Текст: "Виду"
+Имеет форматирование (w:rPr)
+
+--- Прогон #47 ---
+Текст: " полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);"
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #48 ---
+Текст: "Соблюдаются все правила проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Блокировать». Или есть правила, которые при проверке не соблюдаются, но для них установлена реакция «Игнорировать»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #49 ---
+Текст: "Таблица 3. Интерфейс для исходящих ЭД в АРМ «Модуля ЭДО» "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #50 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #51 ---
+Текст: "Добавление на форму исходящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента."
+Имеет форматирование (w:rPr)
+
+--- Прогон #52 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #53 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #54 ---
+Текст: "1. Добавление в список сообщений на форме исходящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (получателя)."
+Имеет форматирование (w:rPr)
+
+--- Прогон #55 ---
+Текст: "Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #56 ---
+Текст: "«Проверка МЧД получателя: обнаружены ошибки»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #57 ---
+Текст: "Условия, при которых общий результат проверки будет считаться неудачным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #58 ---
+Текст: "в таблице 2."
+Имеет форматирование (w:rPr)
+
+--- Прогон #59 ---
+Текст: "Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #60 ---
+Текст: "«Проверка МЧД получателя: проверка пройдена частично, требуется подтверждение»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #61 ---
+Текст: "Условия, при которых общий результат проверки будет считаться частично успешным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #62 ---
+Текст: "в таблице 2."
+Имеет форматирование (w:rPr)
+
+--- Прогон #63 ---
+Текст: "Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #64 ---
+Текст: "«Проверка МЧД получателя: проверка пройдена успешно»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #65 ---
+Текст: "Условия, при которых общий результат проверки будет считаться успешным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #66 ---
+Текст: "в таблице 2."
+Имеет форматирование (w:rPr)
+
+--- Прогон #67 ---
+Текст: "Месторасположение сообщения указано на рисунке ниже."
+Имеет форматирование (w:rPr)
+
+--- Прогон #68 ---
+Имеет форматирование (w:rPr)
+
+--- Прогон #69 ---
+Текст: "Таблица 4. Работа с формой «Анализ расхождений»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #70 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #71 ---
+Текст: "Отображение информации о проверках МЧД контрагента для входящих и исходящих ЭД."
+Имеет форматирование (w:rPr)
+
+--- Прогон #72 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #73 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #74 ---
+Текст: "Кнопку «Просмотреть отчет», по которой открывается форма «Анализ расхождений» необходимо отображать в Исходящих ЭД, вне зависимости от статуса ЭД."
+Имеет форматирование (w:rPr)
+
+--- Прогон #75 ---
+Текст: "На форме «Анализ расхождений», в разделе «Проверка МЧД»: "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #76 ---
+Текст: "По кнопке «Проверить» отображать стандартную форму результата проверки МЧД («Статус МЧД»), поставляемую «Модулем ЭДО"
+Имеет форматирование (w:rPr)
+
+--- Прогон #77 ---
+Текст: "»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #78 ---
+
+--- Прогон #79 ---
+
+--- Прогон #80 ---
+Имеет форматирование (w:rPr)
+
+--- Прогон #81 ---
+Текст: "Для входящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя, но и получателя, при наличии, после подписания в СТИУМ;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #82 ---
+Текст: "Для исходящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя из АРМ ЭДО в СТИУМ, но и получателя, при наличии после подписания КА."
+Имеет форматирование (w:rPr)
+
+--- Прогон #83 ---
+Текст: "Таблица "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #84 ---
+Текст: "6.Подписание"
+Имеет форматирование (w:rPr)
+
+--- Прогон #85 ---
+Текст: " входящих ЭД"
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+
+
+=== Анализ RAW XML для Таблица 7 ===
+
+RAW XML параграфа "Таблица 7":
+<w:p w14:paraId="3F376FBD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:ind w:left="0" w:right="118"/><w:rPr><w:color w:val="808080" w:themeColor="background1" w:themeShade="80"/></w:rPr></w:pPr></w:p><w:p w14:paraId="4CC67EAD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="af7"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="3"/></w:numPr><w:spacing w:before="120" w:line="360" w:lineRule="auto"/><w:ind w:left="714" w:hanging="357"/><w:jc w:val="left"/><w:rPr><w:i/><w:lang w:val="ru-RU"/></w:rPr></w:pPr><w:r><w:rPr><w:lang w:val="ru-RU"/></w:rPr><w:t>Описание изменений в ИТ-системе</w:t></w:r></w:p><w:p w14:paraId="75F68497" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="auto"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Таблица 1. Интерфейс для входящих ЭД в АРМ «Модуля ЭДО»</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1553"/><w:gridCol w:w="13573"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="12CB64E2" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="0D499B94" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="5BE24705" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>Добавление на форму входящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента.</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="7B26637D" w14:textId="77777777"><w:trPr><w:trHeight w:val="551"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="1FE9F251" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="6D01DA73" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId8" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="59FCD7E2" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="0AC39A0A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Сценарий</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="0CF92D34" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>1. Добавление в список сообщений на форме входящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (отправителя).</w:t></w:r></w:p><w:p w14:paraId="4E47E6E0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="3771080D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД отправителя: обнаружены ошибки»</w:t></w:r></w:p><w:p w14:paraId="064EAB0D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться неудачным, указаны</w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve"> в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="1304BA69" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="6"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="377019D3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД отправителя: проверка пройдена частично, требуется подтверждение»</w:t></w:r></w:p><w:p w14:paraId="629B78A9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться частично успешным, указаны</w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve"> в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="0170D067" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="5"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="5FF7AD33" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД отправителя: проверка пройдена успешно»</w:t></w:r></w:p><w:p w14:paraId="3BBC56B2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="3260"/></w:tabs><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться успешным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve"> в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="4356AF73" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Месторасположение сообщения указано на рисунке ниже.</w:t></w:r></w:p><w:p w14:paraId="6F959EE0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:noProof/></w:rPr><w:lastRenderedPageBreak/><mc:AlternateContent><mc:Choice Requires="wpg"><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="321ADB60" wp14:editId="4B5EC62B"><wp:extent cx="3284770" cy="3123650"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="2" name="Рисунок 3"/><wp:cNvGraphicFramePr><a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="762128700" name=""/><pic:cNvPicPr><a:picLocks noChangeAspect="1"/></pic:cNvPicPr></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId9"/><a:stretch/></pic:blipFill><pic:spPr bwMode="auto"><a:xfrm><a:off x="0" y="0"/><a:ext cx="3284768" cy="3123648"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></mc:Choice><mc:Fallback xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><w:pict><v:shapetype type="#_x0000_t75" o:spt="75" coordsize="21600,21600" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"/><v:f eqn="sum @0 1 0"/><v:f eqn="sum 0 0 @1"/><v:f eqn="prod @2 1 2"/><v:f eqn="prod @3 21600 pixelWidth"/><v:f eqn="prod @3 21600 pixelHeight"/><v:f eqn="sum @0 0 1"/><v:f eqn="prod @6 1 2"/><v:f eqn="prod @7 21600 pixelWidth"/><v:f eqn="sum @8 21600 0"/><v:f eqn="prod @7 21600 pixelHeight"/><v:f eqn="sum @10 21600 0"/></v:formulas></v:shapetype><v:shape id="_x0000_i1" o:spid="_x0000_s1" type="#_x0000_t75" style="width:258.64pt;height:245.96pt;mso-wrap-distance-left:0.00pt;mso-wrap-distance-top:0.00pt;mso-wrap-distance-right:0.00pt;mso-wrap-distance-bottom:0.00pt;" stroked="false"><v:path textboxrect="0,0,0,0"/><v:imagedata r:id="rId13" o:title=""/></v:shape></w:pict></mc:Fallback></mc:AlternateContent></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="53F2D124" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="254E3C54" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Таблица 2. Условия определения общего результата проверки МЧД контрагента</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1553"/><w:gridCol w:w="13573"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="2BFD4B99" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="456D2BB8" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="08331D72" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>Фиксация условий определения общего результата проверки МЧД контрагента (при получении подписи контрагента по входящим и исходящим ЭД)</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="33FBA406" w14:textId="77777777"><w:trPr><w:trHeight w:val="551"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="2F49F45D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="43306E13" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId14" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="5355C685" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1553" w:type="dxa"/></w:tcPr><w:p w14:paraId="57D03AD7" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Сценарий</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13573" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="6A6E40F1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>1. Условия определения общего результата проверки МЧД контрагента (при получении).</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblStyle w:val="afb"/><w:tblW w:w="0" w:type="auto"/><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="6679"/><w:gridCol w:w="6679"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="6B3C3DCC" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/></w:tcPr><w:p w14:paraId="22BE3A8A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr><w:t>Общий результат проверки МЧД</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/></w:tcPr><w:p w14:paraId="76D88391" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:shd w:val="clear" w:color="0070C0" w:fill="0070C0"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:color w:val="FFFFFF" w:themeColor="background1"/></w:rPr><w:t>Условия для определения результата</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="017AE463" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="011B9926" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Обнаружены ошибки</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="1ACEF8C9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться неудачным (И/ИЛИ):</w:t></w:r></w:p><w:p w14:paraId="112AF06B" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:lastRenderedPageBreak/><w:t xml:space="preserve">При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: </w:t></w:r></w:p><w:p w14:paraId="3755FD18" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>нет полномочий из МЧД (после загрузки в систему);</w:t></w:r></w:p><w:p w14:paraId="78DB5719" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>нет сопоставления полномочий из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД» ни по одной строке;</w:t></w:r></w:p><w:p w14:paraId="11A94648" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="9"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve">ни в одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», отсутствует указание Вида ЭД, соответствующее </w:t></w:r><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Виду</w:t></w:r><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve"> полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);</w:t></w:r></w:p><w:p w14:paraId="25F9F6B9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлено «Реакция» = «Блокировать».</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="03ED0B47" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="629860E3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:lastRenderedPageBreak/><w:t>Проверка пройдена частично</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/></w:tcPr><w:p w14:paraId="0AC9C3C7" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>При выполнении проверок, выполняются условия, определяющие успешный результат, за исключением (И/ИЛИ):</w:t></w:r></w:p><w:p w14:paraId="79686A07" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Предупреждать»;</w:t></w:r></w:p><w:p w14:paraId="35B88C59" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="8"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>В элементе справочника «Доверенности (ЭДО)» для данной МЧД есть хотя бы одно полномочие (после загрузки в систему), где «Вид проверки» = «Ручная».</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="45BFF6B0" w14:textId="77777777"><w:trPr><w:trHeight w:val="253"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:vMerge w:val="restart"/></w:tcPr><w:p w14:paraId="37D64735" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:lastRenderedPageBreak/><w:t>Проверка пройдена успешно</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6679" w:type="dxa"/><w:vMerge w:val="restart"/></w:tcPr><w:p w14:paraId="3276A0BC" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Условия, при которых общий результат проверки будет считаться успешным (И):</w:t></w:r></w:p><w:p w14:paraId="0C011608" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve">При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: </w:t></w:r></w:p><w:p w14:paraId="20B6DA32" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="11"/></w:numPr><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve">Хотя бы по одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», есть указание Вида ЭД, соответствующее </w:t></w:r><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Виду</w:t></w:r><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t xml:space="preserve"> полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);</w:t></w:r></w:p><w:p w14:paraId="21DD66DD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="10"/></w:numPr><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr><w:t>Соблюдаются все правила проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Блокировать». Или есть правила, которые при проверке не соблюдаются, но для них установлена реакция «Игнорировать».</w:t></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="7067A5EF" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"/></w:tc></w:tr></w:tbl><w:p w14:paraId="1CADD088" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="5325C0AE" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve">Таблица 3. Интерфейс для исходящих ЭД в АРМ «Модуля ЭДО» </w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1418"/><w:gridCol w:w="13708"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="24983F3E" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="6A5DB3CB" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="27C751C2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>Добавление на форму исходящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента.</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="00F43BB3" w14:textId="77777777"><w:trPr><w:trHeight w:val="551"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="7FBEF719" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="5C1A8885" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId15" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="066AD2AF" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="34A2EC4A" w14:textId="3EBDEF2E" w:rsidR="0052275C" w:rsidRDefault="00EE195C"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:spacing w:after="120"/><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:lastRenderedPageBreak/><w:t>Сценарий</w:t></w:r><w:bookmarkStart w:id="0" w:name="_GoBack"/><w:bookmarkEnd w:id="0"/></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="694F9771" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>1. Добавление в список сообщений на форме исходящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (получателя).</w:t></w:r></w:p><w:p w14:paraId="2D71B71C" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="15"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="7E8A8249" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД получателя: обнаружены ошибки»</w:t></w:r></w:p><w:p w14:paraId="22B537E9" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться неудачным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="1D2EB632" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="17"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="241059C2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД получателя: проверка пройдена частично, требуется подтверждение»</w:t></w:r></w:p><w:p w14:paraId="225026CB" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться частично успешным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="77ECFFE0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="16"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:</w:t></w:r></w:p><w:p w14:paraId="5A21352D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:bCs/><w:i/><w:iCs/></w:rPr><w:t>«Проверка МЧД получателя: проверка пройдена успешно»</w:t></w:r></w:p><w:p w14:paraId="4701E27A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="709"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Условия, при которых общий результат проверки будет считаться успешным, указаны </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>в таблице 2.</w:t></w:r></w:hyperlink></w:p><w:p w14:paraId="2E5A4813" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Месторасположение сообщения указано на рисунке ниже.</w:t></w:r></w:p><w:p w14:paraId="588BCE01" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:noProof/></w:rPr><w:lastRenderedPageBreak/><mc:AlternateContent><mc:Choice Requires="wpg"><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="0DE546BA" wp14:editId="2FD6FEA6"><wp:extent cx="3790434" cy="4253862"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="3" name="Рисунок 4"/><wp:cNvGraphicFramePr><a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="143077267" name=""/><pic:cNvPicPr><a:picLocks noChangeAspect="1"/></pic:cNvPicPr></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId16"/><a:stretch/></pic:blipFill><pic:spPr bwMode="auto"><a:xfrm><a:off x="0" y="0"/><a:ext cx="3790432" cy="4253860"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></mc:Choice><mc:Fallback xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><w:pict><v:shapetype type="#_x0000_t75" o:spt="75" coordsize="21600,21600" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"/><v:f eqn="sum @0 1 0"/><v:f eqn="sum 0 0 @1"/><v:f eqn="prod @2 1 2"/><v:f eqn="prod @3 21600 pixelWidth"/><v:f eqn="prod @3 21600 pixelHeight"/><v:f eqn="sum @0 0 1"/><v:f eqn="prod @6 1 2"/><v:f eqn="prod @7 21600 pixelWidth"/><v:f eqn="sum @8 21600 0"/><v:f eqn="prod @7 21600 pixelHeight"/><v:f eqn="sum @10 21600 0"/></v:formulas></v:shapetype><v:shape id="_x0000_i2" o:spid="_x0000_s2" type="#_x0000_t75" style="width:298.46pt;height:334.95pt;mso-wrap-distance-left:0.00pt;mso-wrap-distance-top:0.00pt;mso-wrap-distance-right:0.00pt;mso-wrap-distance-bottom:0.00pt;" stroked="false"><v:path textboxrect="0,0,0,0"/><v:imagedata r:id="rId17" o:title=""/></v:shape></w:pict></mc:Fallback></mc:AlternateContent></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="4B2140A4" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="55B9AED7" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="4F755116" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="62B490CE" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="44242A8B" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="3A80EC11" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="7EED0C48" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Таблица 4. Работа с формой «Анализ расхождений»</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1418"/><w:gridCol w:w="13708"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="103B2AE1" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="66FD2AA1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="195941BA" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:jc w:val="both"/><w:rPr><w:rFonts w:eastAsia="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Отображение информации о проверках МЧД контрагента для входящих и исходящих ЭД.</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="2B30EDD8" w14:textId="77777777"><w:trPr><w:trHeight w:val="805"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="48E8B6F4" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="22BF97D8" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId18" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="6B76DA5F" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="0F21500A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Сценарий</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="0C083793" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Кнопку «Просмотреть отчет», по которой открывается форма «Анализ расхождений» необходимо отображать в Исходящих ЭД, вне зависимости от статуса ЭД.</w:t></w:r></w:p><w:p w14:paraId="3248AEC3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:spacing w:after="120"/><w:ind w:left="709"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr></w:p><w:p w14:paraId="296536B3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="13"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">На форме «Анализ расхождений», в разделе «Проверка МЧД»: </w:t></w:r></w:p><w:p w14:paraId="2AF02BEC" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="12"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="1134" w:hanging="425"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>По кнопке «Проверить» отображать стандартную форму результата проверки МЧД («Статус МЧД»), поставляемую «Модулем ЭДО</w:t></w:r><w:commentRangeStart w:id="1"/><w:commentRangeStart w:id="2"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>»;</w:t></w:r><w:commentRangeEnd w:id="1"/><w:commentRangeEnd w:id="2"/><w:r><w:commentReference w:id="1"/></w:r><w:r><w:commentReference w:id="2"/></w:r></w:p><w:p w14:paraId="45E54C8B" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="1134"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:noProof/></w:rPr><mc:AlternateContent><mc:Choice Requires="wpg"><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="65F3FF2B" wp14:editId="5C90FECB"><wp:extent cx="3489213" cy="2400535"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="4" name="Рисунок 4"/><wp:cNvGraphicFramePr><a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="2126147630" name=""/><pic:cNvPicPr><a:picLocks noChangeAspect="1"/></pic:cNvPicPr></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId22"/><a:stretch/></pic:blipFill><pic:spPr bwMode="auto"><a:xfrm><a:off x="0" y="0"/><a:ext cx="3489212" cy="2400534"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></mc:Choice><mc:Fallback xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><w:pict><v:shapetype type="#_x0000_t75" o:spt="75" coordsize="21600,21600" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"/><v:f eqn="sum @0 1 0"/><v:f eqn="sum 0 0 @1"/><v:f eqn="prod @2 1 2"/><v:f eqn="prod @3 21600 pixelWidth"/><v:f eqn="prod @3 21600 pixelHeight"/><v:f eqn="sum @0 0 1"/><v:f eqn="prod @6 1 2"/><v:f eqn="prod @7 21600 pixelWidth"/><v:f eqn="sum @8 21600 0"/><v:f eqn="prod @7 21600 pixelHeight"/><v:f eqn="sum @10 21600 0"/></v:formulas></v:shapetype><v:shape id="_x0000_i3" o:spid="_x0000_s3" type="#_x0000_t75" style="width:274.74pt;height:189.02pt;mso-wrap-distance-left:0.00pt;mso-wrap-distance-top:0.00pt;mso-wrap-distance-right:0.00pt;mso-wrap-distance-bottom:0.00pt;" stroked="false"><v:path textboxrect="0,0,0,0"/><v:imagedata r:id="rId23" o:title=""/></v:shape></w:pict></mc:Fallback></mc:AlternateContent></w:r></w:p><w:p w14:paraId="08B65C2C" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="1559"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Для входящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя, но и получателя, при наличии, после подписания в СТИУМ;</w:t></w:r></w:p><w:p w14:paraId="56FAB822" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="14"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="1559"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:lastRenderedPageBreak/><w:t>Для исходящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя из АРМ ЭДО в СТИУМ, но и получателя, при наличии после подписания КА.</w:t></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="49A46F8A" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:pStyle w:val="affc"/></w:pPr></w:p><w:p w14:paraId="4457D2E1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve">Таблица </w:t></w:r><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>6.Подписание</w:t></w:r><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve"> входящих ЭД</w:t></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="15126" w:type="dxa"/><w:tblInd w:w="-5" w:type="dxa"/><w:tblBorders><w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideH w:val="single" w:sz="4" w:space="0" w:color="000000"/><w:insideV w:val="single" w:sz="4" w:space="0" w:color="000000"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/></w:tblPr><w:tblGrid><w:gridCol w:w="1418"/><w:gridCol w:w="13708"/></w:tblGrid><w:tr w:rsidR="0052275C" w14:paraId="2CF04701" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="7841E218" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Функция</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="128BA330" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:jc w:val="both"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Подписание входящих ЭД с учетом проверок МЧД подписантов.</w:t></w:r></w:p><w:p w14:paraId="120034A5" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:ind w:left="0"/><w:jc w:val="both"/><w:rPr><w:rFonts w:eastAsia="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Добавление проверок МЧД в справочник «Проверки при сравнении СД и ЭД»</w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="4B3BDE81" w14:textId="77777777"><w:trPr><w:trHeight w:val="805"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="18E0B986" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>№ задачи в реестре ФТТ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="0039FA16" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00D76314"><w:pPr><w:pStyle w:val="affd"/><w:rPr><w:rFonts w:eastAsia="Arial"/><w:color w:val="000000" w:themeColor="text1"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:hyperlink r:id="rId24" w:tooltip="https://task.dev.gazprom-neft.ru/projects/STIUM/issues/STIUM-2914" w:history="1"><w:r w:rsidR="00161553"><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:eastAsia="Arial"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>STIUM-2914</w:t></w:r></w:hyperlink><w:r w:rsidR="00161553"><w:t xml:space="preserve"> </w:t></w:r></w:p></w:tc></w:tr><w:tr w:rsidR="0052275C" w14:paraId="6BD69A05" w14:textId="77777777"><w:tc><w:tcPr><w:tcW w:w="1418" w:type="dxa"/></w:tcPr><w:p w14:paraId="52D3E3C3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:tabs><w:tab w:val="left" w:pos="4116"/></w:tabs><w:ind w:left="0"/><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:eastAsia="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Сценарий</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="13708" w:type="dxa"/><w:shd w:val="clear" w:color="FFFFFF" w:fill="FFFFFF"/></w:tcPr><w:p w14:paraId="25D5A375" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>1. Добавление проверок МЧД Контрагента в справочник «Проверки при сравнении СД и ЭД».</w:t></w:r></w:p><w:p w14:paraId="0FEC7D66" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="283"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>В справочник «Проверки при сравнении СД и ЭД» (</w:t></w:r><w:proofErr w:type="spellStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>ккПроверкиПриСравненииСДиЭД</w:t></w:r><w:proofErr w:type="spellEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>) добавить проверку для МЧД Контрагента (будет использоваться для учета поверки МЧД контрагента при получении Входящего ЭД в СТИУМ):</w:t></w:r></w:p><w:p w14:paraId="7E9366E0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Идентификатор» = «</w:t></w:r><w:proofErr w:type="spellStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>ПроверкаМЧДКонтрагента</w:t></w:r><w:proofErr w:type="spellEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>»;</w:t></w:r></w:p><w:p w14:paraId="77DEA1BF" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Наименование» = «Проверка МЧД Контрагента»;</w:t></w:r></w:p><w:p w14:paraId="32F01EB0" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">«Тип проверки» = «МЧД» (добавить новое значение для </w:t></w:r><w:proofErr w:type="spellStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Перечисление.ккТипыПроверокСДИЭД</w:t></w:r><w:proofErr w:type="spellEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>);</w:t></w:r></w:p><w:p w14:paraId="40D61AFB" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Используется при» = «Стандартное подписание»;</w:t></w:r></w:p><w:p w14:paraId="70D5EF3D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Этап проверки» = «0»;</w:t></w:r></w:p><w:p w14:paraId="5A47F21E" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Подписание ЭД» = «Ложь»;</w:t></w:r></w:p><w:p w14:paraId="15204596" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Рекомендованное действие» = «Отказ в подписи»;</w:t></w:r></w:p><w:p w14:paraId="121A596C" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Текст результата» = «В строке "[</w:t></w:r><w:proofErr w:type="spellStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>НомерСтрокиЭД</w:t></w:r><w:proofErr w:type="spellEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>]" не пройдена проверка МЧД контрагента "[Контрагент]" (подписант - "[</w:t></w:r><w:proofErr w:type="spellStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>ФИОПодписанта</w:t></w:r><w:proofErr w:type="spellEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>]", идентификатор МЧД - "[</w:t></w:r><w:proofErr w:type="spellStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>НомерМЧДПриПодписании</w:t></w:r><w:proofErr w:type="spellEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>]";</w:t></w:r></w:p><w:p w14:paraId="17E5341E" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>«Текст рекомендации» = «Необходимо отказать в подписи»;</w:t></w:r></w:p><w:p w14:paraId="4F0D18FF" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="20"/></w:numPr><w:spacing w:after="120"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>ТЧ «Проверяемые значения» не заполнять, сделать необязательной для заполнения, если «Тип проверки» = «МЧД».</w:t></w:r></w:p><w:p w14:paraId="4484CE05" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Проверку определить для «Типа СД» = «Приобретение товаров и услуг (Документ)» И «Корректировка приобретения (Документ)».</w:t></w:r></w:p><w:p w14:paraId="35E0786C" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Логику проверки реализовать следующим образом:</w:t></w:r></w:p><w:p w14:paraId="7F78A292" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="21"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:lastRenderedPageBreak/><w:t>Вызывать выполнение типовых проверок, согласно предопределенным элементам в справочнике «Правила проверки МЧД (ЭДО)» (поставляются «Модулем ЭДО»), которые относятся к проверкам «при получении»;</w:t></w:r></w:p><w:p w14:paraId="5201A4FD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="21"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Описание правил определения общего результата по проверке представлено в </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>таблице 2</w:t></w:r></w:hyperlink><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>.</w:t></w:r></w:p><w:p w14:paraId="242351C2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:color w:val="0070C0"/></w:rPr></w:pPr></w:p><w:p w14:paraId="7A043CC4" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="3"/><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr><w:r><w:rPr><w:color w:val="0070C0"/><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr><w:t>2. Проверки при переходе к подписанию входящего ЭД.</w:t></w:r></w:p><w:p w14:paraId="0F9C1B60" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="18"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>При выполнении проверок сопоставления СД и ЭД для Входящего ЭД, выполняемых при нажатии кнопки «Выполнить проверки» на форме «Анализ расхождений» Входящего ЭД или автоматически при выполнении РЗ «Выполнение проверок СД и ЭД», необходимо учитывать для расчета общего результата проверок новую проверку — «Проверка МЧД Контрагента» (получение общего результата относительно разрешения/запрета подписи ЭД путем приоритезации рекомендуемых действий согласно текущей реализации не изменяется) .</w:t></w:r></w:p><w:p w14:paraId="72D2E233" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Соответственно результат проверки — «Проверка МЧД Контрагента» — для текущего ЭД следует также записывать в справочник «Результат выполнения проверок СД и ЭД».</w:t></w:r></w:p><w:p w14:paraId="1F3CC4CD" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="22"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">При отрицательном результате проверки «Проверка МЧД Контрагента», устанавливать реквизит «Проверка МЧД пройдена» = «Ложь» для элемента справочника Входящий ЭД, кнопку «Подписать ЭД» заблокировать (как в типовом функционале, поставляемом «Модулем ЭДО»). Согласно рекомендованному действию, пользователю будет предложено отказать в подписи. При нажатии в АРМ МЭДО «Обработать автоматически» система отправит отказ в подписи по данному ЭД. </w:t></w:r></w:p><w:p w14:paraId="7956B320" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="22"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Если проверка пройдена частично, разрешать переход к подписанию ЭД, но только после подтверждения пользователем </w:t></w:r><w:proofErr w:type="spellStart"/><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>вручную,на</w:t></w:r><w:proofErr w:type="spellEnd"/><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve"> стандартной форме результата проверки («Статус МЧД» от МЭДО). До подтверждения устанавливать реквизит «Проверка МЧД пройдена» = «Ложь» для элемента справочника Входящий ЭД (кнопку «Подписать ЭД» заблокировать, как в типовом функционале, поставляемом «Модулем ЭДО»), после подтверждения устанавливать «Проверка МЧД пройдена» = «Истина» (кнопку «Подписать ЭД» разблокировать).</w:t></w:r></w:p><w:p w14:paraId="0E22DDD8" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Подтверждение разрешить только при наличии у пользователя роли «Расширенный функционал ЮЗЭДО».</w:t></w:r></w:p><w:p w14:paraId="6AA56DD3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="22"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если проверка пройдена успешно, разрешать переход к подписанию ЭД, устанавливать реквизит «Проверка МЧД пройдена» = «Истина» для элемента справочника Входящий ЭД.</w:t></w:r></w:p><w:p w14:paraId="677326FE" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:spacing w:after="120"/><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr></w:p><w:p w14:paraId="47ABDB54" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="19"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="567"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:lastRenderedPageBreak/><w:t>При нажатии кнопки «Подписать» на форме подписи для входящего ЭД, после выбора доверенности, с использованием которой пользователь в СТИУМ будет подписывать ЭД, необходимо осуществлять ее проверку, по следующему принципу:</w:t></w:r></w:p><w:p w14:paraId="270A056D" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="23"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Вызывать выполнение типовых проверок, согласно предопределенным элементам в справочнике «Правила проверки МЧД (ЭДО)» (поставляются «Модулем ЭДО»), которые относятся к проверкам «при подписании»;</w:t></w:r></w:p><w:p w14:paraId="467EED41" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="23"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Описание правил определения общего результата по проверке представлено в </w:t></w:r><w:hyperlink w:anchor="_Таблица_2." w:tooltip="#_Таблица_2." w:history="1"><w:r><w:rPr><w:rStyle w:val="aff6"/><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">таблице 8 </w:t></w:r></w:hyperlink><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>.</w:t></w:r></w:p><w:p w14:paraId="0E60BB78" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="23"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Если проверка МЧД получателя (подписанта в СТИУМ) не пройдена, </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve">то открывать стандартную форму результата проверки МЧД (от МЭДО) для ознакомления. Запретить подписание документа с использованием данной МЧД. </w:t></w:r></w:p><w:p w14:paraId="3004B0CE" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:jc w:val="center"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:noProof/></w:rPr><mc:AlternateContent><mc:Choice Requires="wpg"><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="418B9A59" wp14:editId="23AD11B0"><wp:extent cx="5441973" cy="3240527"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="5" name="Рисунок 5"/><wp:cNvGraphicFramePr><a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="493017397" name=""/><pic:cNvPicPr><a:picLocks noChangeAspect="1"/></pic:cNvPicPr></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId25"/><a:stretch/></pic:blipFill><pic:spPr bwMode="auto"><a:xfrm><a:off x="0" y="0"/><a:ext cx="5441971" cy="3240525"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></mc:Choice><mc:Fallback xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><w:pict><v:shapetype type="#_x0000_t75" o:spt="75" coordsize="21600,21600" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"/><v:f eqn="sum @0 1 0"/><v:f eqn="sum 0 0 @1"/><v:f eqn="prod @2 1 2"/><v:f eqn="prod @3 21600 pixelWidth"/><v:f eqn="prod @3 21600 pixelHeight"/><v:f eqn="sum @0 0 1"/><v:f eqn="prod @6 1 2"/><v:f eqn="prod @7 21600 pixelWidth"/><v:f eqn="sum @8 21600 0"/><v:f eqn="prod @7 21600 pixelHeight"/><v:f eqn="sum @10 21600 0"/></v:formulas></v:shapetype><v:shape id="_x0000_i4" o:spid="_x0000_s4" type="#_x0000_t75" style="width:428.50pt;height:255.16pt;mso-wrap-distance-left:0.00pt;mso-wrap-distance-top:0.00pt;mso-wrap-distance-right:0.00pt;mso-wrap-distance-bottom:0.00pt;rotation:0;" stroked="false"><v:path textboxrect="0,0,0,0"/><v:imagedata r:id="rId26" o:title=""/></v:shape></w:pict></mc:Fallback></mc:AlternateContent></w:r></w:p><w:p w14:paraId="3EFF89E1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="23"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>Если проверка МЧД получателя (подписанта в СТИУМ) пройдена частично, то п</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve">одписание разрешить после ручного подтверждения (функционал МЭДО) на выводимой форме результата проверки (стандартная форма от МЭДО). </w:t></w:r></w:p><w:p w14:paraId="6C595BAC" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:lastRenderedPageBreak/><w:t>Подтверждение разрешить только при наличии у пользователя роли «Расширенный функционал ЮЗЭДО».</w:t></w:r></w:p><w:p w14:paraId="3B1EB4A5" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>Дальнейший алгоритм действий подписания не изменяется.</w:t></w:r></w:p><w:p w14:paraId="2404EBCB" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553" w:rsidP="00161553"><w:pPr><w:pStyle w:val="aff3"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="23"/></w:numPr><w:spacing w:after="120"/><w:ind w:left="992"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t xml:space="preserve">Если проверка МЧД получателя (подписанта в СТИУМ) пройдена успешно, </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>то не выводить стандартную форму результата проверки МЧД (от МЭДО). Да</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/></w:rPr><w:t>льнейший алгоритм подписания не изменяется.</w:t></w:r></w:p></w:tc></w:tr></w:tbl><w:p w14:paraId="22DF9267" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="76003223" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="009055D1" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="3C38D206" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="6ADDF244" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="5FA407F2" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="32D1C8D3" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="35120E6F" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="0052275C"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr></w:p><w:p w14:paraId="10C0929E" w14:textId="77777777" w:rsidR="0052275C" w:rsidRDefault="00161553"><w:pPr><w:pStyle w:val="4"/><w:jc w:val="right"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve">Таблица </w:t></w:r><w:proofErr w:type="gramStart"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t>7.Подписание</w:t></w:r><w:proofErr w:type="gramEnd"/><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:i w:val="0"/><w:iCs w:val="0"/><w:color w:val="000000" w:themeColor="text1"/></w:rPr><w:t xml:space="preserve"> исходящих ЭД</w:t></w:r></w:p>
+
+
+=== Форматированный вывод ===
+
+Найдено 148 текстовых прогонов (w:r)
+
+--- Прогон #0 ---
+Текст: "Описание изменений в ИТ-системе"
+Имеет форматирование (w:rPr)
+
+--- Прогон #1 ---
+Текст: "Таблица 1. Интерфейс для входящих ЭД в АРМ «Модуля ЭДО»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #2 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #3 ---
+Текст: "Добавление на форму входящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента."
+Имеет форматирование (w:rPr)
+
+--- Прогон #4 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #5 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #6 ---
+Текст: "1. Добавление в список сообщений на форме входящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (отправителя)."
+Имеет форматирование (w:rPr)
+
+--- Прогон #7 ---
+Текст: "Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #8 ---
+Текст: "«Проверка МЧД отправителя: обнаружены ошибки»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #9 ---
+Текст: "Условия, при которых общий результат проверки будет считаться неудачным, указаны"
+Имеет форматирование (w:rPr)
+
+--- Прогон #10 ---
+Текст: " в таблице 2."
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #11 ---
+Текст: "Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #12 ---
+Текст: "«Проверка МЧД отправителя: проверка пройдена частично, требуется подтверждение»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #13 ---
+Текст: "Условия, при которых общий результат проверки будет считаться частично успешным, указаны"
+Имеет форматирование (w:rPr)
+
+--- Прогон #14 ---
+Текст: " в таблице 2."
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #15 ---
+Текст: "Если для МЧД, указанной при подписании данного входящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме входящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #16 ---
+Текст: "«Проверка МЧД отправителя: проверка пройдена успешно»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #17 ---
+Текст: "Условия, при которых общий результат проверки будет считаться успешным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #18 ---
+Текст: " в таблице 2."
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #19 ---
+Текст: "Месторасположение сообщения указано на рисунке ниже."
+Имеет форматирование (w:rPr)
+
+--- Прогон #20 ---
+Имеет форматирование (w:rPr)
+
+--- Прогон #21 ---
+Текст: "Таблица 2. Условия определения общего результата проверки МЧД контрагента"
+Имеет форматирование (w:rPr)
+
+--- Прогон #22 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #23 ---
+Текст: "Фиксация условий определения общего результата проверки МЧД контрагента (при получении подписи контрагента по входящим и исходящим ЭД)"
+Имеет форматирование (w:rPr)
+
+--- Прогон #24 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #25 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #26 ---
+Текст: "1. Условия определения общего результата проверки МЧД контрагента (при получении)."
+Имеет форматирование (w:rPr)
+
+--- Прогон #27 ---
+Текст: "Общий результат проверки МЧД"
+Имеет форматирование (w:rPr)
+
+--- Прогон #28 ---
+Текст: "Условия для определения результата"
+Имеет форматирование (w:rPr)
+
+--- Прогон #29 ---
+Текст: "Обнаружены ошибки"
+Имеет форматирование (w:rPr)
+
+--- Прогон #30 ---
+Текст: "Условия, при которых общий результат проверки будет считаться неудачным (И/ИЛИ):"
+Имеет форматирование (w:rPr)
+
+--- Прогон #31 ---
+Текст: "При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #32 ---
+Текст: "нет полномочий из МЧД (после загрузки в систему);"
+Имеет форматирование (w:rPr)
+
+--- Прогон #33 ---
+Текст: "нет сопоставления полномочий из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД» ни по одной строке;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #34 ---
+Текст: "ни в одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», отсутствует указание Вида ЭД, соответствующее "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #35 ---
+Текст: "Виду"
+Имеет форматирование (w:rPr)
+
+--- Прогон #36 ---
+Текст: " полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);"
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #37 ---
+Текст: "Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлено «Реакция» = «Блокировать»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #38 ---
+Текст: "Проверка пройдена частично"
+Имеет форматирование (w:rPr)
+
+--- Прогон #39 ---
+Текст: "При выполнении проверок, выполняются условия, определяющие успешный результат, за исключением (И/ИЛИ):"
+Имеет форматирование (w:rPr)
+
+--- Прогон #40 ---
+Текст: "Не соблюдается хотя бы одно из правил проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Предупреждать»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #41 ---
+Текст: "В элементе справочника «Доверенности (ЭДО)» для данной МЧД есть хотя бы одно полномочие (после загрузки в систему), где «Вид проверки» = «Ручная»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #42 ---
+Текст: "Проверка пройдена успешно"
+Имеет форматирование (w:rPr)
+
+--- Прогон #43 ---
+Текст: "Условия, при которых общий результат проверки будет считаться успешным (И):"
+Имеет форматирование (w:rPr)
+
+--- Прогон #44 ---
+Текст: "При условии, что в справочнике «Правила проверки МЧД (ЭДО) для элемента справочника «(При получении) Проверка полномочий» установлено значение «Реакция» = «Блокировать» — в элементе справочника «Доверенности (ЭДО)» для данной МЧД: "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #45 ---
+Текст: "Хотя бы по одной из строк, где есть сопоставления полномочия из МЧД (после загрузки в систему) с элементом справочника «Полномочия при подписании МЧД», есть указание Вида ЭД, соответствующее "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #46 ---
+Текст: "Виду"
+Имеет форматирование (w:rPr)
+
+--- Прогон #47 ---
+Текст: " полученного ЭД (соответствие Полномочия и Вида ЭД настраивается в справочнике «Полномочия при подписании МЧД»);"
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #48 ---
+Текст: "Соблюдаются все правила проверки МЧД (при получении), для которых в справочнике «Правила проверки МЧД (ЭДО)» установлена реакция «Блокировать». Или есть правила, которые при проверке не соблюдаются, но для них установлена реакция «Игнорировать»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #49 ---
+Текст: "Таблица 3. Интерфейс для исходящих ЭД в АРМ «Модуля ЭДО» "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #50 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #51 ---
+Текст: "Добавление на форму исходящего ЭД в АРМ «Модуля ЭДО» в список сообщений информации о результате проверки МЧД контрагента."
+Имеет форматирование (w:rPr)
+
+--- Прогон #52 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #53 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #54 ---
+Текст: "1. Добавление в список сообщений на форме исходящего ЭД в АРМ «Модуля ЭДО» информации о результате проверки МЧД контрагента (получателя)."
+Имеет форматирование (w:rPr)
+
+--- Прогон #55 ---
+Текст: "Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки неудачный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #56 ---
+Текст: "«Проверка МЧД получателя: обнаружены ошибки»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #57 ---
+Текст: "Условия, при которых общий результат проверки будет считаться неудачным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #58 ---
+Текст: "в таблице 2."
+Имеет форматирование (w:rPr)
+
+--- Прогон #59 ---
+Текст: "Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки частично успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #60 ---
+Текст: "«Проверка МЧД получателя: проверка пройдена частично, требуется подтверждение»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #61 ---
+Текст: "Условия, при которых общий результат проверки будет считаться частично успешным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #62 ---
+Текст: "в таблице 2."
+Имеет форматирование (w:rPr)
+
+--- Прогон #63 ---
+Текст: "Если для МЧД, указанной при подписании данного исходящего ЭД контрагентом, общий результат проверки успешный, то необходимо вывести на форме исходящего ЭД в списке сообщений о проверке ЭД:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #64 ---
+Текст: "«Проверка МЧД получателя: проверка пройдена успешно»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #65 ---
+Текст: "Условия, при которых общий результат проверки будет считаться успешным, указаны "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #66 ---
+Текст: "в таблице 2."
+Имеет форматирование (w:rPr)
+
+--- Прогон #67 ---
+Текст: "Месторасположение сообщения указано на рисунке ниже."
+Имеет форматирование (w:rPr)
+
+--- Прогон #68 ---
+Имеет форматирование (w:rPr)
+
+--- Прогон #69 ---
+Текст: "Таблица 4. Работа с формой «Анализ расхождений»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #70 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #71 ---
+Текст: "Отображение информации о проверках МЧД контрагента для входящих и исходящих ЭД."
+Имеет форматирование (w:rPr)
+
+--- Прогон #72 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #73 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #74 ---
+Текст: "Кнопку «Просмотреть отчет», по которой открывается форма «Анализ расхождений» необходимо отображать в Исходящих ЭД, вне зависимости от статуса ЭД."
+Имеет форматирование (w:rPr)
+
+--- Прогон #75 ---
+Текст: "На форме «Анализ расхождений», в разделе «Проверка МЧД»: "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #76 ---
+Текст: "По кнопке «Проверить» отображать стандартную форму результата проверки МЧД («Статус МЧД»), поставляемую «Модулем ЭДО"
+Имеет форматирование (w:rPr)
+
+--- Прогон #77 ---
+Текст: "»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #78 ---
+
+--- Прогон #79 ---
+
+--- Прогон #80 ---
+Имеет форматирование (w:rPr)
+
+--- Прогон #81 ---
+Текст: "Для входящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя, но и получателя, при наличии, после подписания в СТИУМ;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #82 ---
+Текст: "Для исходящих ЭД на форме «Статус МЧД» отображать не только результат проверки МЧД отправителя из АРМ ЭДО в СТИУМ, но и получателя, при наличии после подписания КА."
+Имеет форматирование (w:rPr)
+
+--- Прогон #83 ---
+Текст: "Таблица "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #84 ---
+Текст: "6.Подписание"
+Имеет форматирование (w:rPr)
+
+--- Прогон #85 ---
+Текст: " входящих ЭД"
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #86 ---
+Текст: "Функция"
+Имеет форматирование (w:rPr)
+
+--- Прогон #87 ---
+Текст: "Подписание входящих ЭД с учетом проверок МЧД подписантов."
+Имеет форматирование (w:rPr)
+
+--- Прогон #88 ---
+Текст: "Добавление проверок МЧД в справочник «Проверки при сравнении СД и ЭД»"
+Имеет форматирование (w:rPr)
+
+--- Прогон #89 ---
+Текст: "№ задачи в реестре ФТТ"
+Имеет форматирование (w:rPr)
+
+--- Прогон #90 ---
+Текст: "Сценарий"
+Имеет форматирование (w:rPr)
+
+--- Прогон #91 ---
+Текст: "1. Добавление проверок МЧД Контрагента в справочник «Проверки при сравнении СД и ЭД»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #92 ---
+Текст: "В справочник «Проверки при сравнении СД и ЭД» ("
+Имеет форматирование (w:rPr)
+
+--- Прогон #93 ---
+Текст: "ккПроверкиПриСравненииСДиЭД"
+Имеет форматирование (w:rPr)
+
+--- Прогон #94 ---
+Текст: ") добавить проверку для МЧД Контрагента (будет использоваться для учета поверки МЧД контрагента при получении Входящего ЭД в СТИУМ):"
+Имеет форматирование (w:rPr)
+
+--- Прогон #95 ---
+Текст: "«Идентификатор» = «"
+Имеет форматирование (w:rPr)
+
+--- Прогон #96 ---
+Текст: "ПроверкаМЧДКонтрагента"
+Имеет форматирование (w:rPr)
+
+--- Прогон #97 ---
+Текст: "»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #98 ---
+Текст: "«Наименование» = «Проверка МЧД Контрагента»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #99 ---
+Текст: "«Тип проверки» = «МЧД» (добавить новое значение для "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #100 ---
+Текст: "Перечисление.ккТипыПроверокСДИЭД"
+Имеет форматирование (w:rPr)
+
+--- Прогон #101 ---
+Текст: ");"
+Имеет форматирование (w:rPr)
+
+--- Прогон #102 ---
+Текст: "«Используется при» = «Стандартное подписание»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #103 ---
+Текст: "«Этап проверки» = «0»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #104 ---
+Текст: "«Подписание ЭД» = «Ложь»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #105 ---
+Текст: "«Рекомендованное действие» = «Отказ в подписи»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #106 ---
+Текст: "«Текст результата» = «В строке "["
+Имеет форматирование (w:rPr)
+
+--- Прогон #107 ---
+Текст: "НомерСтрокиЭД"
+Имеет форматирование (w:rPr)
+
+--- Прогон #108 ---
+Текст: "]" не пройдена проверка МЧД контрагента "[Контрагент]" (подписант - "["
+Имеет форматирование (w:rPr)
+
+--- Прогон #109 ---
+Текст: "ФИОПодписанта"
+Имеет форматирование (w:rPr)
+
+--- Прогон #110 ---
+Текст: "]", идентификатор МЧД - "["
+Имеет форматирование (w:rPr)
+
+--- Прогон #111 ---
+Текст: "НомерМЧДПриПодписании"
+Имеет форматирование (w:rPr)
+
+--- Прогон #112 ---
+Текст: "]";"
+Имеет форматирование (w:rPr)
+
+--- Прогон #113 ---
+Текст: "«Текст рекомендации» = «Необходимо отказать в подписи»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #114 ---
+Текст: "ТЧ «Проверяемые значения» не заполнять, сделать необязательной для заполнения, если «Тип проверки» = «МЧД»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #115 ---
+Текст: "Проверку определить для «Типа СД» = «Приобретение товаров и услуг (Документ)» И «Корректировка приобретения (Документ)»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #116 ---
+Текст: "Логику проверки реализовать следующим образом:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #117 ---
+Текст: "Вызывать выполнение типовых проверок, согласно предопределенным элементам в справочнике «Правила проверки МЧД (ЭДО)» (поставляются «Модулем ЭДО»), которые относятся к проверкам «при получении»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #118 ---
+Текст: "Описание правил определения общего результата по проверке представлено в "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #119 ---
+Текст: "таблице 2"
+Имеет форматирование (w:rPr)
+
+--- Прогон #120 ---
+Текст: "."
+Имеет форматирование (w:rPr)
+
+--- Прогон #121 ---
+Текст: "2. Проверки при переходе к подписанию входящего ЭД."
+Имеет форматирование (w:rPr)
+
+--- Прогон #122 ---
+Текст: "При выполнении проверок сопоставления СД и ЭД для Входящего ЭД, выполняемых при нажатии кнопки «Выполнить проверки» на форме «Анализ расхождений» Входящего ЭД или автоматически при выполнении РЗ «Выполнение проверок СД и ЭД», необходимо учитывать для расчета общего результата проверок новую проверку — «Проверка МЧД Контрагента» (получение общего результата относительно разрешения/запрета подписи ЭД путем приоритезации рекомендуемых действий согласно текущей реализации не изменяется) ."
+Имеет форматирование (w:rPr)
+
+--- Прогон #123 ---
+Текст: "Соответственно результат проверки — «Проверка МЧД Контрагента» — для текущего ЭД следует также записывать в справочник «Результат выполнения проверок СД и ЭД»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #124 ---
+Текст: "При отрицательном результате проверки «Проверка МЧД Контрагента», устанавливать реквизит «Проверка МЧД пройдена» = «Ложь» для элемента справочника Входящий ЭД, кнопку «Подписать ЭД» заблокировать (как в типовом функционале, поставляемом «Модулем ЭДО»). Согласно рекомендованному действию, пользователю будет предложено отказать в подписи. При нажатии в АРМ МЭДО «Обработать автоматически» система отправит отказ в подписи по данному ЭД. "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #125 ---
+Текст: "Если проверка пройдена частично, разрешать переход к подписанию ЭД, но только после подтверждения пользователем "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #126 ---
+Текст: "вручную,на"
+Имеет форматирование (w:rPr)
+
+--- Прогон #127 ---
+Текст: " стандартной форме результата проверки («Статус МЧД» от МЭДО). До подтверждения устанавливать реквизит «Проверка МЧД пройдена» = «Ложь» для элемента справочника Входящий ЭД (кнопку «Подписать ЭД» заблокировать, как в типовом функционале, поставляемом «Модулем ЭДО»), после подтверждения устанавливать «Проверка МЧД пройдена» = «Истина» (кнопку «Подписать ЭД» разблокировать)."
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #128 ---
+Текст: "Подтверждение разрешить только при наличии у пользователя роли «Расширенный функционал ЮЗЭДО»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #129 ---
+Текст: "Если проверка пройдена успешно, разрешать переход к подписанию ЭД, устанавливать реквизит «Проверка МЧД пройдена» = «Истина» для элемента справочника Входящий ЭД."
+Имеет форматирование (w:rPr)
+
+--- Прогон #130 ---
+Текст: "При нажатии кнопки «Подписать» на форме подписи для входящего ЭД, после выбора доверенности, с использованием которой пользователь в СТИУМ будет подписывать ЭД, необходимо осуществлять ее проверку, по следующему принципу:"
+Имеет форматирование (w:rPr)
+
+--- Прогон #131 ---
+Текст: "Вызывать выполнение типовых проверок, согласно предопределенным элементам в справочнике «Правила проверки МЧД (ЭДО)» (поставляются «Модулем ЭДО»), которые относятся к проверкам «при подписании»;"
+Имеет форматирование (w:rPr)
+
+--- Прогон #132 ---
+Текст: "Описание правил определения общего результата по проверке представлено в "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #133 ---
+Текст: "таблице 8 "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #134 ---
+Текст: "."
+Имеет форматирование (w:rPr)
+
+--- Прогон #135 ---
+Текст: "Если проверка МЧД получателя (подписанта в СТИУМ) не пройдена, "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #136 ---
+Текст: "то открывать стандартную форму результата проверки МЧД (от МЭДО) для ознакомления. Запретить подписание документа с использованием данной МЧД. "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #137 ---
+Имеет форматирование (w:rPr)
+
+--- Прогон #138 ---
+Текст: "Если проверка МЧД получателя (подписанта в СТИУМ) пройдена частично, то п"
+Имеет форматирование (w:rPr)
+
+--- Прогон #139 ---
+Текст: "одписание разрешить после ручного подтверждения (функционал МЭДО) на выводимой форме результата проверки (стандартная форма от МЭДО). "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #140 ---
+Текст: "Подтверждение разрешить только при наличии у пользователя роли «Расширенный функционал ЮЗЭДО»."
+Имеет форматирование (w:rPr)
+
+--- Прогон #141 ---
+Текст: "Дальнейший алгоритм действий подписания не изменяется."
+Имеет форматирование (w:rPr)
+
+--- Прогон #142 ---
+Текст: "Если проверка МЧД получателя (подписанта в СТИУМ) пройдена успешно, "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #143 ---
+Текст: "то не выводить стандартную форму результата проверки МЧД (от МЭДО). Да"
+Имеет форматирование (w:rPr)
+
+--- Прогон #144 ---
+Текст: "льнейший алгоритм подписания не изменяется."
+Имеет форматирование (w:rPr)
+
+--- Прогон #145 ---
+Текст: "Таблица "
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+--- Прогон #146 ---
+Текст: "7.Подписание"
+Имеет форматирование (w:rPr)
+
+--- Прогон #147 ---
+Текст: " исходящих ЭД"
+xml:space: "preserve"
+Имеет форматирование (w:rPr)
+
+
+
+=== Общая статистика ===
+
+Заголовки с пробелом: 5
+Примеры: [ 'Таблица 1', 'Таблица 2', 'Таблица 3', 'Таблица 4', 'Таблица 8' ]
+
+--- Дубликаты заголовков ---
+Найдено упоминаний заголовков: 5
+1. Таблица 1. Интерфейс для входящих ЭД в АРМ «Модуля ЭДО»
+2. Таблица 2. Условия определения общего результата проверки МЧД контрагента
+3. Таблица 3. Интерфейс для исходящих ЭД в АРМ «Модуля ЭДО» 
+4. Таблица 4. Работа с формой «Анализ расхождений»
+5. Таблица 8. Условия определения общего результата проверки МЧД подписанта в СТИУМ
