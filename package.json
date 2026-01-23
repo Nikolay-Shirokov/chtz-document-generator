@@ -4,10 +4,12 @@
   "description": "Генератор документов ЧТЗ из Markdown в Word (.docx)",
   "main": "src/index.js",
   "bin": {
-    "chtz-generate": "./bin/chtz-generate.js"
+    "chtz-generate": "./bin/chtz-generate.js",
+    "chtz-reverse": "./bin/chtz-reverse.js"
   },
   "scripts": {
     "generate": "node bin/chtz-generate.js",
+    "reverse": "node bin/chtz-reverse.js",
     "test": "node --test tests/",
     "example": "node bin/chtz-generate.js examples/full/document.md -o examples/full/output.docx -v"
   },
@@ -22,14 +24,18 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "unified": "^11.0.0",
-    "remark-parse": "^11.0.0",
-    "remark-gfm": "^4.0.0",
-    "remark-directive": "^3.0.0",
-    "gray-matter": "^4.0.3",
     "adm-zip": "^0.5.10",
-    "commander": "^11.0.0",
     "chalk": "^5.3.0",
-    "image-size": "^1.0.2"
+    "commander": "^11.0.0",
+    "diff": "^8.0.3",
+    "gray-matter": "^4.0.3",
+    "image-size": "^1.0.2",
+    "remark-directive": "^3.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.0"
+  },
+  "devDependencies": {
+    "xmldom": "^0.6.0"
   }
 }

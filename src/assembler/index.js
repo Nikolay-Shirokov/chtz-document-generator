@@ -69,11 +69,8 @@ async function assembleDocx(options) {
     for (const imageInfo of images) {
       const { sourcePath, attributes, rId: oldRId } = imageInfo;
       
-      // Формируем полный путь к изображению
+      // sourcePath уже полный путь с createAssemblyContext
       let fullImagePath = sourcePath;
-      if (!path.isAbsolute(sourcePath)) {
-        fullImagePath = path.join(imagesDir, sourcePath);
-      }
       
       if (!fs.existsSync(fullImagePath)) {
         console.warn(`Изображение не найдено: ${fullImagePath}`);
@@ -193,8 +190,14 @@ function createAssemblyContext(options = {}) {
     
     addImage(imagePath, attributes = {}) {
       // Убираем атрибуты из пути если есть
-      const cleanPath = imagePath.replace(/\{[^}]+\}$/, '');
-      
+      let cleanPath = imagePath.replace(/\{[^}]+\}$/, '');
+
+      // Если путь относительный и начинается с "images/", убираем этот префикс
+      // так как imagesDir уже указывает на папку images
+      if (!path.isAbsolute(cleanPath) && cleanPath.startsWith('images/')) {
+        cleanPath = cleanPath.substring('images/'.length);
+      }
+
       // Проверяем, существует ли файл
       let fullPath = cleanPath;
       if (!path.isAbsolute(cleanPath)) {
@@ -217,7 +220,7 @@ function createAssemblyContext(options = {}) {
       const targetHeight = Math.round(targetWidth * aspectRatio);
       
       const imageData = {
-        sourcePath: cleanPath,
+        sourcePath: fullPath, // используем полный путь, уже разрешённый
         attributes,
         rId,
         name: path.basename(cleanPath),

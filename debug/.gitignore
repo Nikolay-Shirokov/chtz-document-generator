@@ -1,0 +1,17 @@
+# Временные тестовые файлы
+test-*.md
+test-*.docx
+*.tmp
+
+# Временные изображения
+images/
+
+# Результаты тестов
+step*.md
+step*.docx
+round-trip*.md
+round-trip*.docx
+summary.txt
+
+# Отчеты анализа (могут содержать конфиденциальные данные)
+reports/
