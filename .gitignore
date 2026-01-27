@@ -35,3 +35,4 @@ output.docx
 # Real work documents (confidential)
 tests/test1-original/
 tests/test2-user-request/
+tests/roundtrip-test/
