@@ -171,9 +171,6 @@ class FunctionTableRecognizer {
 
     // Если есть параграфы с runs - форматируем их
     if (cell.paragraphs && cell.paragraphs.length > 0) {
-      // Отслеживаем счётчики для нумерованных списков по numId
-      const listCounters = {};
-
       const formattedParagraphs = cell.paragraphs.map(p => {
         let text = '';
         if (p.runs && p.runs.length > 0) {
@@ -184,25 +181,13 @@ class FunctionTableRecognizer {
 
         // Обработка нумерованных/маркированных списков
         if (p.listInfo && p.listInfo.numId) {
-          const numId = p.listInfo.numId;
           const level = parseInt(p.listInfo.level, 10) || 0;
           const indent = '  '.repeat(level);
 
-          // Инициализируем счётчик если ещё нет
-          if (!listCounters[numId]) {
-            listCounters[numId] = 0;
-          }
-          listCounters[numId]++;
-
-          // Определяем тип списка по numId (эвристика: чётные обычно decimal, нечётные - bullet)
-          // Более надёжно было бы парсить numbering.xml, но для простоты используем эвристику
-          // numId "1" обычно decimal, "2" обычно bullet в стандартных шаблонах
-          // Но проще определить по счётчику - если > 1, скорее всего нумерованный
-          // Или можно проверить первую цифру в тексте - но это ненадёжно
-
-          // Используем простой подход: считаем что нумерованный список
-          // Маркированные списки в function-table обычно редки
-          return `${indent}${listCounters[numId]}. ${text}`;
+          // В Markdown используем "1." для всех пунктов списка
+          // Markdown процессоры автоматически нумеруют пункты при рендеринге
+          // Это стандартная практика, которая делает списки более устойчивыми к редактированию
+          return `${indent}1. ${text}`;
         }
 
         return text;

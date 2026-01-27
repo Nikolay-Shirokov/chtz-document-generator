@@ -228,7 +228,11 @@ class FormattingRecognizer {
     }
 
     // Генерируем Markdown ссылку
-    const alt = imageInfo.alt || 'image';
+    // Если alt выглядит как имя файла (содержит расширение), используем "image"
+    let alt = imageInfo.alt || 'image';
+    if (/\.(png|jpg|jpeg|gif|svg|webp|bmp)$/i.test(alt)) {
+      alt = 'image';
+    }
     const path = `images/${image.filename}`;
 
     return `![${alt}](${path})`;

@@ -8,6 +8,18 @@ const { buildImageParagraph } = require('./image-builder');
 const { parseMarkdownTable } = require('../utils/markdown-table-parser');
 
 /**
+ * Создаёт w:t элемент с правильной обработкой пробелов
+ * Добавляет xml:space="preserve" если текст начинается или заканчивается пробелом
+ */
+function buildTextElement(text) {
+  const escaped = escapeXml(text);
+  // Если текст содержит пробелы в начале или конце, нужен xml:space="preserve"
+  const needsPreserve = /^\s|\s$/.test(text);
+  const spaceAttr = needsPreserve ? ' xml:space="preserve"' : '';
+  return `<w:t${spaceAttr}>${escaped}</w:t>`;
+}
+
+/**
  * Парсинг атрибутов изображения из URL
  */
 function parseImageAttributes(url) {
@@ -99,15 +111,14 @@ function processTextWithBold(text) {
   }
 
   if (parts.length === 0) {
-    return `<w:r><w:t>${escapeXml(text)}</w:t></w:r>`;
+    return `<w:r>${buildTextElement(text)}</w:r>`;
   }
 
   return parts.map(p => {
-    const escaped = escapeXml(p.text);
     if (p.bold) {
-      return `<w:r><w:rPr><w:b/></w:rPr><w:t>${escaped}</w:t></w:r>`;
+      return `<w:r><w:rPr><w:b/></w:rPr>${buildTextElement(p.text)}</w:r>`;
     }
-    return `<w:r><w:t>${escaped}</w:t></w:r>`;
+    return `<w:r>${buildTextElement(p.text)}</w:r>`;
   }).join('');
 }
 
@@ -115,22 +126,22 @@ function processTextWithBold(text) {
  * Создание XML для ссылки (внешней или внутренней)
  */
 function buildLinkRun(text, url, context) {
-  const escaped = escapeXml(text);
+  const textElement = buildTextElement(text);
 
   // Внутренняя ссылка (anchor)
   if (url.startsWith('#')) {
     const anchor = url.substring(1);
-    return `<w:hyperlink w:anchor="${escapeXml(anchor)}"><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escaped}</w:t></w:r></w:hyperlink>`;
+    return `<w:hyperlink w:anchor="${escapeXml(anchor)}"><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr>${textElement}</w:r></w:hyperlink>`;
   }
 
   // Внешняя ссылка
   if (context.addHyperlink && isValidUrl(url)) {
     const rId = context.addHyperlink(url);
-    return `<w:hyperlink r:id="${rId}"><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escaped}</w:t></w:r></w:hyperlink>`;
+    return `<w:hyperlink r:id="${rId}"><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr>${textElement}</w:r></w:hyperlink>`;
   }
 
   // Fallback - просто текст со стилем ссылки
-  return `<w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escaped}</w:t></w:r>`;
+  return `<w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr>${textElement}</w:r>`;
 }
 
 /**
