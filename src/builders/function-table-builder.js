@@ -27,14 +27,65 @@ function parseImageAttributes(url) {
 }
 
 /**
- * Обработка форматирования текста (жирный)
+ * Обработка форматирования текста (жирный, ссылки)
+ * @param {string} text - Исходный текст
+ * @param {Object} context - Контекст с addHyperlink функцией
+ * @returns {string} XML runs
  */
-function processTextFormatting(text) {
+function processTextFormatting(text, context = {}) {
+  if (!text) return '';
+
+  // Сначала обрабатываем ссылки, потом жирный текст
+  // Regex для markdown ссылок: [text](url) или [text](#anchor)
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    // Текст до ссылки
+    if (match.index > lastIndex) {
+      parts.push({ type: 'text', content: text.substring(lastIndex, match.index) });
+    }
+    // Ссылка
+    parts.push({
+      type: 'link',
+      text: match[1],
+      url: match[2]
+    });
+    lastIndex = match.index + match[0].length;
+  }
+
+  // Текст после последней ссылки
+  if (lastIndex < text.length) {
+    parts.push({ type: 'text', content: text.substring(lastIndex) });
+  }
+
+  // Если нет ссылок, используем простую обработку bold
+  if (parts.length === 0 || (parts.length === 1 && parts[0].type === 'text')) {
+    return processTextWithBold(text);
+  }
+
+  // Обрабатываем каждую часть
+  return parts.map(part => {
+    if (part.type === 'link') {
+      return buildLinkRun(part.text, part.url, context);
+    }
+    return processTextWithBold(part.content);
+  }).join('');
+}
+
+/**
+ * Обработка текста с жирным форматированием (без ссылок)
+ */
+function processTextWithBold(text) {
+  if (!text) return '';
+
   const parts = [];
   const boldRegex = /\*\*([^*]+)\*\*/g;
   let lastIndex = 0;
   let match;
-  
+
   while ((match = boldRegex.exec(text)) !== null) {
     if (match.index > lastIndex) {
       parts.push({ text: text.substring(lastIndex, match.index), bold: false });
@@ -42,15 +93,15 @@ function processTextFormatting(text) {
     parts.push({ text: match[1], bold: true });
     lastIndex = match.index + match[0].length;
   }
-  
+
   if (lastIndex < text.length) {
     parts.push({ text: text.substring(lastIndex), bold: false });
   }
-  
+
   if (parts.length === 0) {
     return `<w:r><w:t>${escapeXml(text)}</w:t></w:r>`;
   }
-  
+
   return parts.map(p => {
     const escaped = escapeXml(p.text);
     if (p.bold) {
@@ -58,6 +109,28 @@ function processTextFormatting(text) {
     }
     return `<w:r><w:t>${escaped}</w:t></w:r>`;
   }).join('');
+}
+
+/**
+ * Создание XML для ссылки (внешней или внутренней)
+ */
+function buildLinkRun(text, url, context) {
+  const escaped = escapeXml(text);
+
+  // Внутренняя ссылка (anchor)
+  if (url.startsWith('#')) {
+    const anchor = url.substring(1);
+    return `<w:hyperlink w:anchor="${escapeXml(anchor)}"><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escaped}</w:t></w:r></w:hyperlink>`;
+  }
+
+  // Внешняя ссылка
+  if (context.addHyperlink && isValidUrl(url)) {
+    const rId = context.addHyperlink(url);
+    return `<w:hyperlink r:id="${rId}"><w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escaped}</w:t></w:r></w:hyperlink>`;
+  }
+
+  // Fallback - просто текст со стилем ссылки
+  return `<w:r><w:rPr><w:color w:val="0563C1"/><w:u w:val="single"/></w:rPr><w:t>${escaped}</w:t></w:r>`;
 }
 
 /**
@@ -179,18 +252,18 @@ function buildScenarioContent(scenarioText, styles, context = {}) {
 
   for (const item of parsed) {
     if (item.type === 'text') {
-      const runs = processTextFormatting(item.content);
+      const runs = processTextFormatting(item.content, context);
       result.push(`<w:p>${runs}</w:p>`);
     }
     else if (item.type === 'numbered') {
       item.items.forEach((text) => {
-        const runs = processTextFormatting(text);
+        const runs = processTextFormatting(text, context);
         result.push(`<w:p><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="${styles.numberingIds.decimal}"/></w:numPr></w:pPr>${runs}</w:p>`);
       });
     }
     else if (item.type === 'bullet') {
       item.items.forEach(text => {
-        const runs = processTextFormatting(text);
+        const runs = processTextFormatting(text, context);
         result.push(`<w:p><w:pPr><w:numPr><w:ilvl w:val="0"/><w:numId w:val="${styles.numberingIds.bullet}"/></w:numPr></w:pPr>${runs}</w:p>`);
       });
     }
@@ -205,7 +278,7 @@ function buildScenarioContent(scenarioText, styles, context = {}) {
     }
     else if (item.type === 'table') {
       // Генерируем вложенную таблицу
-      const nestedTable = buildNestedTable(item.rows, styles);
+      const nestedTable = buildNestedTable(item.rows, styles, context);
       result.push(nestedTable);
     }
   }
@@ -216,7 +289,7 @@ function buildScenarioContent(scenarioText, styles, context = {}) {
 /**
  * Генерация вложенной таблицы из Markdown
  */
-function buildNestedTable(rows, styles) {
+function buildNestedTable(rows, styles, context = {}) {
   if (!rows || rows.length === 0) return '';
 
   const tableRows = [];
@@ -228,7 +301,7 @@ function buildNestedTable(rows, styles) {
     for (const cellText of row) {
       // Обрабатываем <br> как переводы строк
       const paragraphs = cellText.split('<br>').map(text => {
-        const runs = processTextFormatting(text.trim());
+        const runs = processTextFormatting(text.trim(), context);
         return `<w:p>${runs}</w:p>`;
       }).join('');
 
@@ -271,7 +344,7 @@ function buildFunctionTable(directiveData, styles, context = {}) {
   const rows = [];
 
   // Строка 1: Функция
-  const funcRuns = processTextFormatting(funcDescription || '');
+  const funcRuns = processTextFormatting(funcDescription || '', context);
 
   // Если есть ID, добавляем закладку внутрь первого параграфа (а не отдельным параграфом)
   let bookmarkStart = '';

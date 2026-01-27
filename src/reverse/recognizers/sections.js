@@ -35,6 +35,11 @@ class SectionRecognizer {
    */
   recognize(elements, ast) {
     this.warnings = [];
+    // Сохраняем контекст для использования в processTable
+    this.context = {
+      relations: ast.relations || {},
+      images: ast.images || []
+    };
     const sections = [];
     let currentSection = null;
     let contentBuffer = [];
@@ -193,7 +198,8 @@ class SectionRecognizer {
    */
   processTable(table) {
     // Используем TableRecognizer для полного распознавания
-    const recognized = this.tableRecognizer.recognize(table, {});
+    // Передаём контекст с relations и images для форматирования ссылок и изображений
+    const recognized = this.tableRecognizer.recognize(table, this.context || {});
     return recognized;
   }
 

@@ -220,6 +220,13 @@ function extractMarkdownText(node, depth = 0) {
     return `*${inner}*`;
   }
 
+  // Ссылки - сохраняем Markdown синтаксис [text](url)
+  if (node.type === 'link') {
+    const inner = node.children ? node.children.map(c => extractMarkdownText(c, depth)).join('') : '';
+    const url = node.url || '';
+    return `[${inner}](${url})`;
+  }
+
   // HTML (inline HTML like <br>, <span>, etc.)
   if (node.type === 'html') {
     // Сохраняем HTML как есть (особенно важно для <br> тегов)

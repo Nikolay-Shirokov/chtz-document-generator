@@ -156,11 +156,68 @@ class ElementExtractor {
 
   /**
    * Извлекает runs из параграфа
+   * Обрабатывает как обычные runs (w:r), так и гиперссылки (w:hyperlink)
    */
   extractRuns(p) {
     const runs = [];
 
+    // Используем __children__ для сохранения порядка элементов, если доступно
+    if (p['__children__']) {
+      for (const child of p['__children__']) {
+        const key = Object.keys(child)[0];
+        if (key === 'w:r') {
+          const extracted = this.extractRun(child[key]);
+          if (extracted) {
+            runs.push(extracted);
+          }
+        } else if (key === 'w:hyperlink') {
+          const hyperRuns = this.extractHyperlink(child[key]);
+          runs.push(...hyperRuns);
+        }
+      }
+      return runs;
+    }
+
+    // Fallback: обрабатываем w:r и w:hyperlink отдельно
+    // (порядок может быть нарушен)
     const wRuns = p['w:r'];
+    if (wRuns) {
+      const runArray = Array.isArray(wRuns) ? wRuns : [wRuns];
+      for (const run of runArray) {
+        const extracted = this.extractRun(run);
+        if (extracted) {
+          runs.push(extracted);
+        }
+      }
+    }
+
+    // Обрабатываем гиперссылки
+    const hyperlinks = p['w:hyperlink'];
+    if (hyperlinks) {
+      const hyperlinkArray = Array.isArray(hyperlinks) ? hyperlinks : [hyperlinks];
+      for (const hyperlink of hyperlinkArray) {
+        const hyperRuns = this.extractHyperlink(hyperlink);
+        runs.push(...hyperRuns);
+      }
+    }
+
+    return runs;
+  }
+
+  /**
+   * Извлекает runs из гиперссылки
+   * @param {Object} hyperlink - w:hyperlink элемент
+   * @returns {Array} массив runs с информацией о ссылке
+   */
+  extractHyperlink(hyperlink) {
+    const runs = [];
+
+    // Получаем информацию о ссылке
+    const rId = hyperlink['@_r:id'];  // Внешняя ссылка (через relationship)
+    const anchor = hyperlink['@_w:anchor'];  // Внутренняя ссылка (bookmark)
+
+    // Извлекаем runs из гиперссылки
+    const wRuns = hyperlink['w:r'];
     if (!wRuns) return runs;
 
     const runArray = Array.isArray(wRuns) ? wRuns : [wRuns];
@@ -168,6 +225,11 @@ class ElementExtractor {
     for (const run of runArray) {
       const extracted = this.extractRun(run);
       if (extracted) {
+        // Добавляем информацию о ссылке
+        extracted.hyperlink = {
+          rId: rId || null,
+          anchor: anchor || null
+        };
         runs.push(extracted);
       }
     }
@@ -195,8 +257,22 @@ class ElementExtractor {
       result.underline = !!rPr['w:u'];
     }
 
-    // Изображение (w:drawing)
-    const drawing = run['w:drawing'];
+    // Изображение (w:drawing) - может быть напрямую или внутри mc:AlternateContent
+    let drawing = run['w:drawing'];
+
+    // Проверяем mc:AlternateContent (используется для совместимости в OOXML)
+    if (!drawing && run['mc:AlternateContent']) {
+      const altContent = run['mc:AlternateContent'];
+      const choice = altContent['mc:Choice'];
+      if (choice) {
+        drawing = choice['w:drawing'];
+      }
+      // Если нет в Choice, проверяем Fallback
+      if (!drawing && altContent['mc:Fallback']) {
+        drawing = altContent['mc:Fallback']['w:drawing'];
+      }
+    }
+
     if (drawing) {
       const imageInfo = this.extractImage(drawing);
       if (imageInfo) {

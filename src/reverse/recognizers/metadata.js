@@ -37,16 +37,32 @@ class MetadataRecognizer {
       main: null,      // Основная таблица метаданных
       history: null,   // Таблица истории изменений
       related: null,   // Таблица связанных документов
-      indices: []      // Индексы всех таблиц метаданных
+      indices: []      // Индексы всех таблиц и связанных заголовков метаданных
     };
 
-    // Ищем таблицы до первого заголовка
+    // Известные заголовки метаданных, которые нужно фильтровать
+    const metadataHeaders = [
+      'история изменений',
+      'связанные документы',
+      'общее описание'
+    ];
+
+    // Ищем таблицы до первого заголовка H1
     for (let i = 0; i < elements.length; i++) {
       const el = elements[i];
 
-      // Останавливаемся на первом заголовке
+      // Останавливаемся на первом заголовке H1
       if (el.type === 'paragraph' && el.isHeading && el.headingLevel === 1) {
         break;
+      }
+
+      // Фильтруем параграфы-заголовки метаданных (например "История изменений:")
+      if (el.type === 'paragraph' && el.text) {
+        const textLower = el.text.toLowerCase().trim().replace(/:$/, '');
+        if (metadataHeaders.some(h => textLower.includes(h))) {
+          result.indices.push(i);
+          continue;
+        }
       }
 
       if (el.type === 'table' && el.rows && el.rows.length > 0) {

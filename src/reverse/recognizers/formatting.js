@@ -10,7 +10,7 @@ class FormattingRecognizer {
   /**
    * Преобразует runs в форматированный текст Markdown
    * @param {Array<Run>} runs - массив runs
-   * @param {Object} relations - связи (для изображений)
+   * @param {Object} relations - связи (для изображений и гиперссылок)
    * @param {Array} images - массив изображений
    * @returns {string} форматированный текст
    */
@@ -41,6 +41,11 @@ class FormattingRecognizer {
         text = `**${text}**`;
       } else if (run.italic) {
         text = `*${text}*`;
+      }
+
+      // Обработка гиперссылок
+      if (run.hyperlink) {
+        text = this.formatHyperlink(text, run.hyperlink, relations);
       }
 
       parts.push(text);
@@ -170,6 +175,38 @@ class FormattingRecognizer {
     }
 
     return lines.join('\n');
+  }
+
+  /**
+   * Форматирует гиперссылку в Markdown
+   * @param {string} text - текст ссылки
+   * @param {Object} hyperlink - информация о ссылке {rId, anchor}
+   * @param {Object} relations - связи документа
+   * @returns {string} форматированная ссылка
+   */
+  formatHyperlink(text, hyperlink, relations) {
+    // Внешняя ссылка (через relationship)
+    if (hyperlink.rId && relations[hyperlink.rId]) {
+      const rel = relations[hyperlink.rId];
+      if (rel.type === 'hyperlink' && rel.target) {
+        return `[${text}](${rel.target})`;
+      }
+    }
+
+    // Внутренняя ссылка (anchor/bookmark)
+    if (hyperlink.anchor) {
+      // Преобразуем anchor в markdown-совместимый формат
+      // _Таблица_2. -> #таблица-2
+      const anchorId = hyperlink.anchor
+        .replace(/^_/, '')  // Убираем начальное подчёркивание
+        .replace(/_/g, '-')  // Заменяем подчёркивания на дефисы
+        .replace(/\.$/, '')  // Убираем точку в конце
+        .toLowerCase();
+      return `[${text}](#${anchorId})`;
+    }
+
+    // Если не удалось определить ссылку, возвращаем просто текст
+    return text;
   }
 
   /**

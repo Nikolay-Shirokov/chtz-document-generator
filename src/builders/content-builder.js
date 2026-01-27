@@ -143,13 +143,25 @@ function buildHeading(node, styles, context = {}) {
     .filter(c => c.type === 'text')
     .map(c => c.value)
     .join('');
-  
+
   const bookmarkId = context.nextBookmarkId ? context.nextBookmarkId() : '0';
-  const bookmarkName = headingText
+
+  // Генерируем bookmarkName совместимый с типичными anchor-ссылками
+  // Для "Таблица 2. Условия..." создаём "таблица-2" (без остального текста)
+  // Это позволяет ссылаться как [текст](#таблица-2)
+  let bookmarkName = headingText
     .toLowerCase()
     .replace(/[^\w\sа-яё-]/gi, '')
     .replace(/\s+/g, '-')
     .substring(0, 40) || `heading-${bookmarkId}`;
+
+  // Специальная обработка для заголовков вида "Таблица N." - укорачиваем до "таблица-n"
+  const tableMatch = headingText.match(/^(Таблица\s+\d+)/i);
+  if (tableMatch) {
+    bookmarkName = tableMatch[1]
+      .toLowerCase()
+      .replace(/\s+/g, '-');
+  }
   
   // Определяем стиль заголовка
   let styleId;
